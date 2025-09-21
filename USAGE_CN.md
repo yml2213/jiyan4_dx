@@ -6,7 +6,7 @@
   - `train.py`：训练模型，输出 `mox2.pth`。
   - `bconnx.py`：将 `mox2.pth` 导出为 `sbkuan.onnx`。
   - `huak.py`：使用 ONNXRuntime 推理并在图片上绘制检测框。
-  - `images/`：图片目录（训练期需要 `.png`；推理期 `.jpg/.png` 均可）。
+  - `images/`：图片目录（训练/推理均支持 `.jpg/.png/.jpeg`）。
   - `labels/`：标签目录（YOLO 文本格式）。
   - `classes.txt`：类别名称清单（当前模型未输出类别，仅保留以备扩展）。
 
@@ -18,17 +18,15 @@
 
 数据准备
 - 目录组织：
-  - 图片放到 `images/`，标签放到 `labels/`，两者同名，如 `images/1.png` 对应 `labels/1.txt`。
+  - 图片放到 `images/`，标签放到 `labels/`，两者同名，如 `images/1.png` 或 `images/1.jpg` 对应 `labels/1.txt`。
 - 标签格式（YOLO 风格，数值均为 0~1 的相对比例）：
   - 每行：`class cx cy w h`
   - 示例：`4 0.1015625 0.24722222222222223 0.19062500000000002 0.35`
-- 训练输入仅按 `.png` 查找图片：
-  - 若你手头是 `.jpg`，请复制或转换为同名 `.png`：
-    - macOS/Linux：`for f in images/*.jpg; do cp "$f" "${f%.jpg}.png"; done`
+- 训练输入已同时支持 `.png/.jpg/.jpeg` 自动匹配，无需转换。
 
 快速开始（最短路径）
 1) 安装依赖：`python3 -m pip install -r requirements.txt`
-2) 准备数据：将图片与同名标签分别放入 `images/`、`labels/`（训练图为 `.png`）。
+2) 准备数据：将图片与同名标签分别放入 `images/`、`labels/`。
 3) 训练模型（快速试跑 1 轮）：`EPOCHS=1 BATCH_SIZE=8 python3 -u train.py`
    - 正式训练：`python3 -u train.py`（默认 100 轮、批大小 30）。
    - 训练完成会在根目录生成 `mox2.pth`。
@@ -38,12 +36,18 @@
    - 指定图片：`python3 -u huak.py --img images/2.jpg --out runs/out.png`
    - 显示窗口（本机有 GUI）：`python3 -u huak.py --img images/2.jpg --show`
 
+按子集训练（仅前 N 张或范围）
+- 通过环境变量筛选训练子集：
+  - 仅前 N 张：`LIMIT_N=10 EPOCHS=1 python3 -u train.py`
+  - 指定范围（按标签名排序，1 基）：`LABEL_RANGE=1-10 EPOCHS=1 python3 -u train.py`
+  - 可与 `BATCH_SIZE` 等参数组合使用。
+
 训练说明
 - 输入尺寸：`(3, 320, 192)`（与代码内张量维序一致）。
 - 网格划分：`needJj = [5, 3]`（高×宽），每格 2 个候选框。
 - 模型输出：每格 2 个框，共 5 个值 `[cx, cy, w, h, conf]`，范围 0~1。
 - 环境变量（已添加）
-  - `EPOCHS`：训练轮数，默认 `200`。
+  - `EPOCHS`：训练轮数，默认 `100`。
   - `BATCH_SIZE`：批大小，默认 `30`。
   - 示例：`EPOCHS=50 BATCH_SIZE=16 python3 -u train.py`
 - 产物：
@@ -78,7 +82,7 @@
 - `classes.txt`：类名清单（当前未用于分类头和损失）。
 
 常见问题（FAQ）
-- 训练阶段找不到图片：训练脚本仅查找 `.png`，请将训练图片转为 `.png` 并与标签同名。
+- 训练阶段找不到图片：脚本已支持 `.jpg/.png/.jpeg`，请检查是否与标签同名（不含扩展名一致）。
 - 不能弹窗显示：在无 GUI 环境不要使用 `--show`，查看保存的输出图即可。
 - 没有类别输出：当前模型只学习框与置信度；若需要类别，请扩展网络头部与损失，并在推理时解码类别概率与阈值。
 - 速度/设备：GPU 会更快；CPU 可正常运行但速度较慢。
@@ -87,4 +91,3 @@
 - 同时支持 `.jpg/.png` 的训练数据自动匹配。
 - 增加分类分支与可视化类别文字（读取 `classes.txt`）。
 - 数据增强与更深的主干网络以提升召回率与定位精度。
-

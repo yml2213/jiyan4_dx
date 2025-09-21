@@ -127,8 +127,49 @@ class getData(Dataset):
         super().__init__()
         self.data = []
         path = './labels'
+        img_dir = './images'
         for i in os.listdir(path):
-            self.data.append(['./images/'+i.split('.')[0]+'.png', path+'/'+i])
+            if not i.lower().endswith('.txt'):
+                continue
+            base = os.path.splitext(i)[0]
+            # 同时支持 .png/.jpg/.jpeg（大小写均可）
+            cands = [
+                os.path.join(img_dir, base + ext)
+                for ext in ('.png', '.jpg', '.jpeg', '.PNG', '.JPG', '.JPEG')
+            ]
+            img_path = None
+            for p in cands:
+                if os.path.exists(p):
+                    img_path = p
+                    break
+            if img_path is None:
+                # 找不到同名图片则跳过该样本
+                continue
+            self.data.append([img_path, os.path.join(path, i)])
+        # 统一排序，便于范围选择（按标签文件名排序）
+        self.data.sort(key=lambda x: x[1])
+
+        # 可选：通过环境变量筛选子集
+        # LABEL_RANGE: 形如 "1-10"（1 基）
+        lr = os.getenv('LABEL_RANGE')
+        if lr:
+            try:
+                a, b = lr.strip().split('-', 1)
+                a_i = max(1, int(a))
+                b_i = int(b)
+                self.data = self.data[a_i - 1:b_i]
+            except Exception:
+                pass
+
+        # LIMIT_N: 仅取前 N 个样本
+        limit_n = os.getenv('LIMIT_N')
+        if limit_n:
+            try:
+                n = int(limit_n)
+                if n > 0:
+                    self.data = self.data[:n]
+            except Exception:
+                pass
         self.jk = len(self.data)
         self.tpcl = transforms.Compose([
             transforms.Resize(tpxz),
@@ -315,7 +356,7 @@ optm = torch.optim.Adam(mymodo.parameters(),lr=0.001)
 maxLoss = 10000
 
 # 允许通过环境变量控制训练轮数与批大小（默认与原始脚本一致）
-epochs = int(os.getenv("EPOCHS", "200"))
+epochs = int(os.getenv("EPOCHS", "100"))
 batch_size = int(os.getenv("BATCH_SIZE", "30"))
 
 for i in range(epochs):
