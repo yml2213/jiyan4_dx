@@ -1,10 +1,11 @@
-numpy==1.23.4
+numpy==1.26.4
 onnx==1.14.0
 onnxruntime==1.15.1
+# OpenCV: 选择标准版（包含GUI功能）；如在服务器环境可改为 opencv-python-headless
 opencv_python==4.7.0.72
-opencv_python_headless==4.6.0.66
-Pillow==9.3.0
+# Pillow 版本去重，保留较新的兼容版本
 Pillow==10.0.0
-torch==1.13.1+cu116
-torchvision==0.14.1+cu116
+# PyTorch 使用 CPU 版本，MacOS 上无法安装 CUDA 变体（+cu116）
+torch==2.0.1
+torchvision==0.15.2
 tqdm==4.64.1

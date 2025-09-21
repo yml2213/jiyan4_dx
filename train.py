@@ -314,13 +314,17 @@ meLoss = mbLoss()
 optm = torch.optim.Adam(mymodo.parameters(),lr=0.001)
 maxLoss = 10000
 
-for i in range(100):
+# 允许通过环境变量控制训练轮数与批大小（默认与原始脚本一致）
+epochs = int(os.getenv("EPOCHS", "200"))
+batch_size = int(os.getenv("BATCH_SIZE", "30"))
+
+for i in range(epochs):
 
     sx = 0
     cs = 0
     csl = 0
     zxdss = 0
-    datae = DataLoader(data, shuffle=True, batch_size=30)
+    datae = DataLoader(data, shuffle=True, batch_size=batch_size)
 
     datad = tqdm(datae)
     for img,tar in datad:
