@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "天平",
+      "score": null,
+      "points": [
+        [
+          110.68075117370893,
+          11.737089201877936
+        ],
+        [
+          159.03755868544602,
+          11.737089201877936
+        ],
+        [
+          159.03755868544602,
+          63.14553990610329
+        ],
+        [
+          110.68075117370893,
+          63.14553990610329
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "脑子",
+      "score": null,
+      "points": [
+        [
+          59.97652582159625,
+          85.44600938967136
+        ],
+        [
+          109.74178403755869,
+          85.44600938967136
+        ],
+        [
+          109.74178403755869,
+          136.15023474178406
+        ],
+        [
+          59.97652582159625,
+          136.15023474178406
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "人两袋",
+      "score": null,
+      "points": [
+        [
+          140.49295774647888,
+          102.11267605633803
+        ],
+        [
+          186.50234741784038,
+          102.11267605633803
+        ],
+        [
+          186.50234741784038,
+          152.81690140845072
+        ],
+        [
+          140.49295774647888,
+          152.81690140845072
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "11.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

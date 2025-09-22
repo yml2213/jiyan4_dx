@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "小风扇",
+      "score": null,
+      "points": [
+        [
+          166.54929577464787,
+          44.83568075117371
+        ],
+        [
+          222.88732394366198,
+          44.83568075117371
+        ],
+        [
+          222.88732394366198,
+          95.07042253521126
+        ],
+        [
+          166.54929577464787,
+          95.07042253521126
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "人爬墙",
+      "score": null,
+      "points": [
+        [
+          182.5117370892019,
+          107.04225352112675
+        ],
+        [
+          231.80751173708921,
+          107.04225352112675
+        ],
+        [
+          231.80751173708921,
+          157.04225352112678
+        ],
+        [
+          182.5117370892019,
+          157.04225352112678
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "香炉",
+      "score": null,
+      "points": [
+        [
+          81.80751173708921,
+          128.87323943661974
+        ],
+        [
+          133.4507042253521,
+          128.87323943661974
+        ],
+        [
+          133.4507042253521,
+          174.88262910798124
+        ],
+        [
+          81.80751173708921,
+          174.88262910798124
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "96.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

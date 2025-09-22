@@ -1,0 +1,98 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "kie_linking": [],
+      "label": "三朵花",
+      "score": null,
+      "points": [
+        [
+          68.89671361502349,
+          4.225352112676057
+        ],
+        [
+          118.1924882629108,
+          4.225352112676057
+        ],
+        [
+          118.1924882629108,
+          55.63380281690141
+        ],
+        [
+          68.89671361502349,
+          55.63380281690141
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "kie_linking": [],
+      "label": "球拍",
+      "score": null,
+      "points": [
+        [
+          85.32863849765259,
+          94.83568075117371
+        ],
+        [
+          134.6244131455399,
+          94.83568075117371
+        ],
+        [
+          134.6244131455399,
+          143.1924882629108
+        ],
+        [
+          85.32863849765259,
+          143.1924882629108
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "两网球",
+      "score": null,
+      "points": [
+        [
+          226.40845070422534,
+          90.14084507042253
+        ],
+        [
+          279.92957746478874,
+          90.14084507042253
+        ],
+        [
+          279.92957746478874,
+          142.018779342723
+        ],
+        [
+          226.40845070422534,
+          142.018779342723
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "48.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300,
+  "description": ""
+}

@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "树叶",
+      "score": null,
+      "points": [
+        [
+          104.5774647887324,
+          5.633802816901409
+        ],
+        [
+          159.7417840375587,
+          5.633802816901409
+        ],
+        [
+          159.7417840375587,
+          63.61502347417841
+        ],
+        [
+          104.5774647887324,
+          63.61502347417841
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "香烟",
+      "score": null,
+      "points": [
+        [
+          167.4882629107981,
+          50.46948356807512
+        ],
+        [
+          217.4882629107981,
+          50.46948356807512
+        ],
+        [
+          217.4882629107981,
+          102.8169014084507
+        ],
+        [
+          167.4882629107981,
+          102.8169014084507
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "萝卜",
+      "score": null,
+      "points": [
+        [
+          16.549295774647888,
+          32.3943661971831
+        ],
+        [
+          62.79342723004695,
+          32.3943661971831
+        ],
+        [
+          62.79342723004695,
+          83.5680751173709
+        ],
+        [
+          16.549295774647888,
+          83.5680751173709
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "54.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

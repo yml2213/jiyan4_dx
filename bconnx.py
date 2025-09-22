@@ -4,13 +4,30 @@
 import torchvision.models as models
 import torch
 from torch import nn
+from utils_size import auto_hw_from_ref
+
+# 设备选择：优先 CUDA，其次 Apple MPS，最后 CPU；交互确认是否使用 GPU/MPS
+def _has_mps() -> bool:
+    backends = getattr(torch, "backends", None)
+    mps = getattr(backends, "mps", None) if backends is not None else None
+    try:
+        return bool(mps is not None and hasattr(mps, "is_available") and mps.is_available())
+    except Exception:
+        return False
+
 if torch.cuda.is_available():
-    if input("检测到可转gpu运行是否转(y/n):").strip() == 'y':
+    if input("检测到 CUDA，可使用 GPU 运行，是否启用？(y/n): ").strip().lower() == 'y':
         device = torch.device("cuda")
+    else:
+        device = torch.device("cpu")
+elif _has_mps():
+    if input("检测到 Apple GPU (MPS)，是否启用？(y/n): ").strip().lower() == 'y':
+        device = torch.device("mps")
     else:
         device = torch.device("cpu")
 else:
     device = torch.device("cpu")
+print("Using device:", device)
 
 with open('./classes.txt',encoding='utf-8') as f:
     t = f.read().split('\n')
@@ -65,9 +82,11 @@ try:
     input_names = ['input']
     output_names = ['output']
 
-    x = torch.randn(1, 3, 320, 192).to(device)
+    # 自适应输入大小：保持与训练一致（宽、高均为 64 的倍数）
+    _h, _w, _gw, _gh = auto_hw_from_ref('images/1.jpg', multiple=64, default_hw=(192, 320))
+    x = torch.randn(1, 3, _w, _h).to(device)
 
-    torch.onnx.export(mymodo, x, 'sbkuan.onnx', input_names=input_names, output_names=output_names, verbose='True')
+    torch.onnx.export(mymodo, x, 'sbkuan.onnx', input_names=input_names, output_names=output_names, verbose=True)
     print("成功把画框模型转onnx")
 except:
     pass

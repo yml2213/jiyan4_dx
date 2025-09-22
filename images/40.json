@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "球拍",
+      "score": null,
+      "points": [
+        [
+          45.65727699530517,
+          47.183098591549296
+        ],
+        [
+          95.18779342723005,
+          47.183098591549296
+        ],
+        [
+          95.18779342723005,
+          96.24413145539906
+        ],
+        [
+          45.65727699530517,
+          96.24413145539906
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "人两袋",
+      "score": null,
+      "points": [
+        [
+          177.8169014084507,
+          10.563380281690142
+        ],
+        [
+          227.58215962441315,
+          10.563380281690142
+        ],
+        [
+          227.58215962441315,
+          59.62441314553991
+        ],
+        [
+          177.8169014084507,
+          59.62441314553991
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "拍子连球",
+      "score": null,
+      "points": [
+        [
+          125.70422535211269,
+          85.68075117370891
+        ],
+        [
+          177.34741784037558,
+          85.68075117370891
+        ],
+        [
+          177.34741784037558,
+          139.906103286385
+        ],
+        [
+          125.70422535211269,
+          139.906103286385
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "40.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

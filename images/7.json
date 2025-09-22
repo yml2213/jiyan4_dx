@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "上衣",
+      "score": null,
+      "points": [
+        [
+          42.840375586854464,
+          69.24882629107981
+        ],
+        [
+          92.13615023474179,
+          69.24882629107981
+        ],
+        [
+          92.13615023474179,
+          119.71830985915493
+        ],
+        [
+          42.840375586854464,
+          119.71830985915493
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "吸铁石",
+      "score": null,
+      "points": [
+        [
+          122.88732394366198,
+          109.85915492957746
+        ],
+        [
+          172.18309859154928,
+          109.85915492957746
+        ],
+        [
+          172.18309859154928,
+          159.1549295774648
+        ],
+        [
+          122.88732394366198,
+          159.1549295774648
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "牙齿",
+      "score": null,
+      "points": [
+        [
+          228.28638497652582,
+          102.58215962441314
+        ],
+        [
+          276.17370892018783,
+          102.58215962441314
+        ],
+        [
+          276.17370892018783,
+          152.3474178403756
+        ],
+        [
+          228.28638497652582,
+          152.3474178403756
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "7.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "蜗牛",
+      "score": null,
+      "points": [
+        [
+          59.74178403755869,
+          78.16901408450704
+        ],
+        [
+          111.85446009389672,
+          78.16901408450704
+        ],
+        [
+          111.85446009389672,
+          130.2816901408451
+        ],
+        [
+          59.74178403755869,
+          130.2816901408451
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "垃圾桶",
+      "score": null,
+      "points": [
+        [
+          119.83568075117371,
+          85.44600938967136
+        ],
+        [
+          169.8356807511737,
+          85.44600938967136
+        ],
+        [
+          169.8356807511737,
+          134.97652582159625
+        ],
+        [
+          119.83568075117371,
+          134.97652582159625
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "方向",
+      "score": null,
+      "points": [
+        [
+          209.97652582159625,
+          95.07042253521126
+        ],
+        [
+          259.7417840375587,
+          95.07042253521126
+        ],
+        [
+          259.7417840375587,
+          143.42723004694838
+        ],
+        [
+          209.97652582159625,
+          143.42723004694838
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "4.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

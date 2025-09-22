@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "保龄球",
+      "score": null,
+      "points": [
+        [
+          31.103286384976524,
+          8.92018779342723
+        ],
+        [
+          80.63380281690141,
+          8.92018779342723
+        ],
+        [
+          80.63380281690141,
+          58.21596244131456
+        ],
+        [
+          31.103286384976524,
+          58.21596244131456
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "炸弹",
+      "score": null,
+      "points": [
+        [
+          19.835680751173708,
+          117.6056338028169
+        ],
+        [
+          70.77464788732395,
+          117.6056338028169
+        ],
+        [
+          70.77464788732395,
+          173.23943661971833
+        ],
+        [
+          19.835680751173708,
+          173.23943661971833
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "像7",
+      "score": null,
+      "points": [
+        [
+          127.11267605633803,
+          105.16431924882629
+        ],
+        [
+          175.70422535211267,
+          105.16431924882629
+        ],
+        [
+          175.70422535211267,
+          155.86854460093898
+        ],
+        [
+          127.11267605633803,
+          155.86854460093898
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "94.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

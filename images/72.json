@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "打火机",
+      "score": null,
+      "points": [
+        [
+          106.92488262910798,
+          29.577464788732396
+        ],
+        [
+          154.34272300469482,
+          29.577464788732396
+        ],
+        [
+          154.34272300469482,
+          78.87323943661971
+        ],
+        [
+          106.92488262910798,
+          78.87323943661971
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "房子",
+      "score": null,
+      "points": [
+        [
+          168.89671361502346,
+          19.014084507042256
+        ],
+        [
+          219.13145539906102,
+          19.014084507042256
+        ],
+        [
+          219.13145539906102,
+          67.84037558685446
+        ],
+        [
+          168.89671361502346,
+          67.84037558685446
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "弓箭",
+      "score": null,
+      "points": [
+        [
+          90.49295774647888,
+          122.76995305164318
+        ],
+        [
+          139.78873239436618,
+          122.76995305164318
+        ],
+        [
+          139.78873239436618,
+          172.06572769953053
+        ],
+        [
+          90.49295774647888,
+          172.06572769953053
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "72.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

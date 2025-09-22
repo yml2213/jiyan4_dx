@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "大炮",
+      "score": null,
+      "points": [
+        [
+          75.93896713615024,
+          87.32394366197182
+        ],
+        [
+          120.5399061032864,
+          87.32394366197182
+        ],
+        [
+          120.5399061032864,
+          134.97652582159625
+        ],
+        [
+          75.93896713615024,
+          134.97652582159625
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "时钟",
+      "score": null,
+      "points": [
+        [
+          158.09859154929578,
+          105.63380281690141
+        ],
+        [
+          208.09859154929578,
+          105.63380281690141
+        ],
+        [
+          208.09859154929578,
+          152.58215962441315
+        ],
+        [
+          158.09859154929578,
+          152.58215962441315
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "摄像头",
+      "score": null,
+      "points": [
+        [
+          117.48826291079813,
+          2.816901408450705
+        ],
+        [
+          167.018779342723,
+          2.816901408450705
+        ],
+        [
+          167.018779342723,
+          52.34741784037559
+        ],
+        [
+          117.48826291079813,
+          52.34741784037559
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "29.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

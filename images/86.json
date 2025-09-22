@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "墨水",
+      "score": null,
+      "points": [
+        [
+          93.54460093896714,
+          8.450704225352114
+        ],
+        [
+          143.075117370892,
+          8.450704225352114
+        ],
+        [
+          143.075117370892,
+          59.15492957746479
+        ],
+        [
+          93.54460093896714,
+          59.15492957746479
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "浴缸",
+      "score": null,
+      "points": [
+        [
+          207.8638497652582,
+          21.36150234741784
+        ],
+        [
+          261.15023474178406,
+          21.36150234741784
+        ],
+        [
+          261.15023474178406,
+          77.46478873239437
+        ],
+        [
+          207.8638497652582,
+          77.46478873239437
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "喷壶",
+      "score": null,
+      "points": [
+        [
+          77.58215962441315,
+          98.35680751173709
+        ],
+        [
+          126.40845070422536,
+          98.35680751173709
+        ],
+        [
+          126.40845070422536,
+          149.0610328638498
+        ],
+        [
+          77.58215962441315,
+          149.0610328638498
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "86.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "吸铁石",
+      "score": null,
+      "points": [
+        [
+          12.55868544600939,
+          93.66197183098592
+        ],
+        [
+          63.732394366197184,
+          93.66197183098592
+        ],
+        [
+          63.732394366197184,
+          143.1924882629108
+        ],
+        [
+          12.55868544600939,
+          143.1924882629108
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "帽子",
+      "score": null,
+      "points": [
+        [
+          119.3661971830986,
+          14.7887323943662
+        ],
+        [
+          173.3568075117371,
+          14.7887323943662
+        ],
+        [
+          173.3568075117371,
+          67.6056338028169
+        ],
+        [
+          119.3661971830986,
+          67.6056338028169
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "工具箱",
+      "score": null,
+      "points": [
+        [
+          207.62910798122064,
+          56.57276995305165
+        ],
+        [
+          258.8028169014085,
+          56.57276995305165
+        ],
+        [
+          258.8028169014085,
+          111.03286384976526
+        ],
+        [
+          207.62910798122064,
+          111.03286384976526
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "2.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "化妆盒",
+      "score": null,
+      "points": [
+        [
+          145.18779342723005,
+          17.84037558685446
+        ],
+        [
+          195.42253521126761,
+          17.84037558685446
+        ],
+        [
+          195.42253521126761,
+          67.84037558685446
+        ],
+        [
+          145.18779342723005,
+          67.84037558685446
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "杯子冰淇淋",
+      "score": null,
+      "points": [
+        [
+          63.49765258215963,
+          126.99530516431925
+        ],
+        [
+          110.44600938967137,
+          126.99530516431925
+        ],
+        [
+          110.44600938967137,
+          176.99530516431926
+        ],
+        [
+          63.49765258215963,
+          176.99530516431926
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "火箭模型",
+      "score": null,
+      "points": [
+        [
+          204.57746478873239,
+          93.42723004694835
+        ],
+        [
+          258.8028169014085,
+          93.42723004694835
+        ],
+        [
+          258.8028169014085,
+          145.0704225352113
+        ],
+        [
+          204.57746478873239,
+          145.0704225352113
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "23.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

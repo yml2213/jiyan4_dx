@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "自行车",
+      "score": null,
+      "points": [
+        [
+          70.53990610328638,
+          98.35680751173709
+        ],
+        [
+          119.60093896713616,
+          98.35680751173709
+        ],
+        [
+          119.60093896713616,
+          144.60093896713616
+        ],
+        [
+          70.53990610328638,
+          144.60093896713616
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "摄像头",
+      "score": null,
+      "points": [
+        [
+          190.2582159624413,
+          35.91549295774648
+        ],
+        [
+          237.67605633802816,
+          35.91549295774648
+        ],
+        [
+          237.67605633802816,
+          85.68075117370891
+        ],
+        [
+          190.2582159624413,
+          85.68075117370891
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "熊爪",
+      "score": null,
+      "points": [
+        [
+          116.07981220657278,
+          9.15492957746479
+        ],
+        [
+          168.66197183098592,
+          9.15492957746479
+        ],
+        [
+          168.66197183098592,
+          58.45070422535212
+        ],
+        [
+          116.07981220657278,
+          58.45070422535212
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "38.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "磁带",
+      "score": null,
+      "points": [
+        [
+          39.55399061032864,
+          12.67605633802817
+        ],
+        [
+          89.55399061032864,
+          12.67605633802817
+        ],
+        [
+          89.55399061032864,
+          63.61502347417841
+        ],
+        [
+          39.55399061032864,
+          63.61502347417841
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "喇叭",
+      "score": null,
+      "points": [
+        [
+          149.17840375586854,
+          46.948356807511736
+        ],
+        [
+          205.28169014084506,
+          46.948356807511736
+        ],
+        [
+          205.28169014084506,
+          92.01877934272301
+        ],
+        [
+          149.17840375586854,
+          92.01877934272301
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "玩具头",
+      "score": null,
+      "points": [
+        [
+          54.10798122065728,
+          125.35211267605634
+        ],
+        [
+          105.98591549295776,
+          125.35211267605634
+        ],
+        [
+          105.98591549295776,
+          175.58685446009392
+        ],
+        [
+          54.10798122065728,
+          175.58685446009392
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "39.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

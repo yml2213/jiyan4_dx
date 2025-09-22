@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "蜗牛",
+      "score": null,
+      "points": [
+        [
+          96.36150234741784,
+          5.868544600938968
+        ],
+        [
+          148.94366197183098,
+          5.868544600938968
+        ],
+        [
+          148.94366197183098,
+          59.15492957746479
+        ],
+        [
+          96.36150234741784,
+          59.15492957746479
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "房子",
+      "score": null,
+      "points": [
+        [
+          205.51643192488262,
+          70.89201877934272
+        ],
+        [
+          255.51643192488262,
+          70.89201877934272
+        ],
+        [
+          255.51643192488262,
+          119.48356807511738
+        ],
+        [
+          205.51643192488262,
+          119.48356807511738
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "手电筒",
+      "score": null,
+      "points": [
+        [
+          147.7699530516432,
+          94.60093896713614
+        ],
+        [
+          197.7699530516432,
+          94.60093896713614
+        ],
+        [
+          197.7699530516432,
+          147.1830985915493
+        ],
+        [
+          147.7699530516432,
+          147.1830985915493
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "18.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

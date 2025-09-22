@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "树叶",
+      "score": null,
+      "points": [
+        [
+          6.924882629107982,
+          77.69953051643192
+        ],
+        [
+          60.68075117370893,
+          77.69953051643192
+        ],
+        [
+          60.68075117370893,
+          126.99530516431925
+        ],
+        [
+          6.924882629107982,
+          126.99530516431925
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "三个圆",
+      "score": null,
+      "points": [
+        [
+          102.69953051643193,
+          98.59154929577464
+        ],
+        [
+          153.16901408450704,
+          98.59154929577464
+        ],
+        [
+          153.16901408450704,
+          148.59154929577466
+        ],
+        [
+          102.69953051643193,
+          148.59154929577466
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "三朵花",
+      "score": null,
+      "points": [
+        [
+          198.47417840375587,
+          67.37089201877934
+        ],
+        [
+          246.1267605633803,
+          67.37089201877934
+        ],
+        [
+          246.1267605633803,
+          117.37089201877934
+        ],
+        [
+          198.47417840375587,
+          117.37089201877934
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "5.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

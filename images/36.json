@@ -1,0 +1,98 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "kie_linking": [],
+      "label": "乒乓球拍",
+      "score": null,
+      "points": [
+        [
+          175.4694835680751,
+          106.8075117370892
+        ],
+        [
+          224.5305164319249,
+          106.8075117370892
+        ],
+        [
+          224.5305164319249,
+          159.1549295774648
+        ],
+        [
+          175.4694835680751,
+          159.1549295774648
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "三朵花",
+      "score": null,
+      "points": [
+        [
+          61.61971830985916,
+          126.29107981220658
+        ],
+        [
+          106.92488262910798,
+          126.29107981220658
+        ],
+        [
+          106.92488262910798,
+          173.47417840375587
+        ],
+        [
+          61.61971830985916,
+          173.47417840375587
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "奖杯",
+      "score": null,
+      "points": [
+        [
+          179.4600938967136,
+          2.816901408450705
+        ],
+        [
+          228.5211267605634,
+          2.816901408450705
+        ],
+        [
+          228.5211267605634,
+          53.9906103286385
+        ],
+        [
+          179.4600938967136,
+          53.9906103286385
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "36.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300,
+  "description": ""
+}

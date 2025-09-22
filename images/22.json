@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "喇叭",
+      "score": null,
+      "points": [
+        [
+          102.69953051643193,
+          60.093896713615024
+        ],
+        [
+          157.8638497652582,
+          60.093896713615024
+        ],
+        [
+          157.8638497652582,
+          105.39906103286384
+        ],
+        [
+          102.69953051643193,
+          105.39906103286384
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "小熊",
+      "score": null,
+      "points": [
+        [
+          31.103286384976524,
+          114.08450704225352
+        ],
+        [
+          81.3380281690141,
+          114.08450704225352
+        ],
+        [
+          81.3380281690141,
+          165.02347417840377
+        ],
+        [
+          31.103286384976524,
+          165.02347417840377
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "工具箱",
+      "score": null,
+      "points": [
+        [
+          19.366197183098592,
+          9.624413145539906
+        ],
+        [
+          71.0093896713615,
+          9.624413145539906
+        ],
+        [
+          71.0093896713615,
+          60.328638497652584
+        ],
+        [
+          19.366197183098592,
+          60.328638497652584
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "22.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

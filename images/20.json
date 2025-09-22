@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "汽车",
+      "score": null,
+      "points": [
+        [
+          205.28169014084506,
+          17.370892018779344
+        ],
+        [
+          253.63849765258215,
+          17.370892018779344
+        ],
+        [
+          253.63849765258215,
+          65.96244131455398
+        ],
+        [
+          205.28169014084506,
+          65.96244131455398
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "鸭子",
+      "score": null,
+      "points": [
+        [
+          133.21596244131456,
+          92.01877934272301
+        ],
+        [
+          186.73708920187792,
+          92.01877934272301
+        ],
+        [
+          186.73708920187792,
+          142.25352112676057
+        ],
+        [
+          133.21596244131456,
+          142.25352112676057
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "两网球",
+      "score": null,
+      "points": [
+        [
+          6.690140845070423,
+          76.29107981220658
+        ],
+        [
+          57.86384976525822,
+          76.29107981220658
+        ],
+        [
+          57.86384976525822,
+          126.52582159624413
+        ],
+        [
+          6.690140845070423,
+          126.52582159624413
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "20.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

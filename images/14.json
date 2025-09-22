@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "乒乓球拍",
+      "score": null,
+      "points": [
+        [
+          213.26291079812205,
+          10.7981220657277
+        ],
+        [
+          259.7417840375587,
+          10.7981220657277
+        ],
+        [
+          259.7417840375587,
+          62.206572769953056
+        ],
+        [
+          213.26291079812205,
+          62.206572769953056
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "时钟",
+      "score": null,
+      "points": [
+        [
+          38.61502347417841,
+          50.46948356807512
+        ],
+        [
+          88.61502347417841,
+          50.46948356807512
+        ],
+        [
+          88.61502347417841,
+          100.70422535211267
+        ],
+        [
+          38.61502347417841,
+          100.70422535211267
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "摩天轮",
+      "score": null,
+      "points": [
+        [
+          45.42253521126761,
+          116.4319248826291
+        ],
+        [
+          96.5962441314554,
+          116.4319248826291
+        ],
+        [
+          96.5962441314554,
+          167.37089201877936
+        ],
+        [
+          45.42253521126761,
+          167.37089201877936
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "14.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

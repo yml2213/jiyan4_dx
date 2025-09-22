@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "指南针",
+      "score": null,
+      "points": [
+        [
+          125.00000000000001,
+          27.934272300469484
+        ],
+        [
+          177.58215962441315,
+          27.934272300469484
+        ],
+        [
+          177.58215962441315,
+          78.63849765258216
+        ],
+        [
+          125.00000000000001,
+          78.63849765258216
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "杯子冰淇淋",
+      "score": null,
+      "points": [
+        [
+          83.45070422535211,
+          98.35680751173709
+        ],
+        [
+          129.92957746478874,
+          98.35680751173709
+        ],
+        [
+          129.92957746478874,
+          149.0610328638498
+        ],
+        [
+          83.45070422535211,
+          149.0610328638498
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "三角蘑菇",
+      "score": null,
+      "points": [
+        [
+          16.314553990610328,
+          96.71361502347418
+        ],
+        [
+          68.66197183098592,
+          96.71361502347418
+        ],
+        [
+          68.66197183098592,
+          148.59154929577466
+        ],
+        [
+          16.314553990610328,
+          148.59154929577466
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "57.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

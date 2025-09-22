@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "漏斗",
+      "score": null,
+      "points": [
+        [
+          154.57746478873239,
+          13.145539906103288
+        ],
+        [
+          200.82159624413146,
+          13.145539906103288
+        ],
+        [
+          200.82159624413146,
+          64.31924882629107
+        ],
+        [
+          154.57746478873239,
+          64.31924882629107
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "丹顶鹤",
+      "score": null,
+      "points": [
+        [
+          118.66197183098592,
+          69.71830985915493
+        ],
+        [
+          170.07042253521126,
+          69.71830985915493
+        ],
+        [
+          170.07042253521126,
+          120.4225352112676
+        ],
+        [
+          118.66197183098592,
+          120.4225352112676
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "钩子",
+      "score": null,
+      "points": [
+        [
+          213.0281690140845,
+          81.92488262910798
+        ],
+        [
+          264.906103286385,
+          81.92488262910798
+        ],
+        [
+          264.906103286385,
+          135.68075117370893
+        ],
+        [
+          213.0281690140845,
+          135.68075117370893
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "60.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

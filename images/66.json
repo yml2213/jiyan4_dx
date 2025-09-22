@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "三角蘑菇",
+      "score": null,
+      "points": [
+        [
+          4.577464788732395,
+          82.86384976525821
+        ],
+        [
+          55.98591549295775,
+          82.86384976525821
+        ],
+        [
+          55.98591549295775,
+          134.7417840375587
+        ],
+        [
+          4.577464788732395,
+          134.7417840375587
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "汽车",
+      "score": null,
+      "points": [
+        [
+          98.47417840375587,
+          94.60093896713614
+        ],
+        [
+          151.52582159624413,
+          94.60093896713614
+        ],
+        [
+          151.52582159624413,
+          139.20187793427232
+        ],
+        [
+          98.47417840375587,
+          139.20187793427232
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "主机",
+      "score": null,
+      "points": [
+        [
+          183.4507042253521,
+          108.21596244131456
+        ],
+        [
+          239.31924882629107,
+          108.21596244131456
+        ],
+        [
+          239.31924882629107,
+          164.55399061032864
+        ],
+        [
+          183.4507042253521,
+          164.55399061032864
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "66.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

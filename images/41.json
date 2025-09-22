@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "七星瓢虫",
+      "score": null,
+      "points": [
+        [
+          93.7793427230047,
+          52.816901408450704
+        ],
+        [
+          143.30985915492957,
+          52.816901408450704
+        ],
+        [
+          143.30985915492957,
+          102.34741784037558
+        ],
+        [
+          93.7793427230047,
+          102.34741784037558
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "三朵花",
+      "score": null,
+      "points": [
+        [
+          12.55868544600939,
+          50.70422535211268
+        ],
+        [
+          63.02816901408451,
+          50.70422535211268
+        ],
+        [
+          63.02816901408451,
+          96.24413145539906
+        ],
+        [
+          12.55868544600939,
+          96.24413145539906
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "圆饼",
+      "score": null,
+      "points": [
+        [
+          35.328638497652584,
+          114.31924882629107
+        ],
+        [
+          85.56338028169014,
+          114.31924882629107
+        ],
+        [
+          85.56338028169014,
+          164.3192488262911
+        ],
+        [
+          35.328638497652584,
+          164.3192488262911
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "41.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

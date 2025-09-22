@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "铜钱",
+      "score": null,
+      "points": [
+        [
+          9.976525821596244,
+          8.685446009389672
+        ],
+        [
+          59.507042253521135,
+          8.685446009389672
+        ],
+        [
+          59.507042253521135,
+          55.86854460093897
+        ],
+        [
+          9.976525821596244,
+          55.86854460093897
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "工具箱",
+      "score": null,
+      "points": [
+        [
+          46.5962441314554,
+          61.971830985915496
+        ],
+        [
+          100.11737089201878,
+          61.971830985915496
+        ],
+        [
+          100.11737089201878,
+          111.50234741784037
+        ],
+        [
+          46.5962441314554,
+          111.50234741784037
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "方向",
+      "score": null,
+      "points": [
+        [
+          201.99530516431923,
+          12.206572769953052
+        ],
+        [
+          252.93427230046947,
+          12.206572769953052
+        ],
+        [
+          252.93427230046947,
+          62.910798122065735
+        ],
+        [
+          201.99530516431923,
+          62.910798122065735
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "59.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

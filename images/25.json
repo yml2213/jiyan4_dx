@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "喇叭",
+      "score": null,
+      "points": [
+        [
+          122.65258215962442,
+          6.807511737089202
+        ],
+        [
+          174.76525821596243,
+          6.807511737089202
+        ],
+        [
+          174.76525821596243,
+          59.15492957746479
+        ],
+        [
+          122.65258215962442,
+          59.15492957746479
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "冰淇淋",
+      "score": null,
+      "points": [
+        [
+          44.718309859154935,
+          28.87323943661972
+        ],
+        [
+          88.38028169014085,
+          28.87323943661972
+        ],
+        [
+          88.38028169014085,
+          80.0469483568075
+        ],
+        [
+          44.718309859154935,
+          80.0469483568075
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "玩具头",
+      "score": null,
+      "points": [
+        [
+          214.2018779342723,
+          100.46948356807512
+        ],
+        [
+          269.13145539906105,
+          100.46948356807512
+        ],
+        [
+          269.13145539906105,
+          151.6431924882629
+        ],
+        [
+          214.2018779342723,
+          151.6431924882629
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "25.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

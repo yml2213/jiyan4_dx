@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "蝴蝶",
+      "score": null,
+      "points": [
+        [
+          24.530516431924884,
+          13.145539906103288
+        ],
+        [
+          73.12206572769954,
+          13.145539906103288
+        ],
+        [
+          73.12206572769954,
+          65.02347417840375
+        ],
+        [
+          24.530516431924884,
+          65.02347417840375
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "钻戒",
+      "score": null,
+      "points": [
+        [
+          110.21126760563381,
+          44.13145539906103
+        ],
+        [
+          162.32394366197184,
+          44.13145539906103
+        ],
+        [
+          162.32394366197184,
+          95.30516431924882
+        ],
+        [
+          110.21126760563381,
+          95.30516431924882
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "竹笋模型",
+      "score": null,
+      "points": [
+        [
+          219.8356807511737,
+          91.78403755868544
+        ],
+        [
+          275.46948356807513,
+          91.78403755868544
+        ],
+        [
+          275.46948356807513,
+          145.0704225352113
+        ],
+        [
+          219.8356807511737,
+          145.0704225352113
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "35.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "三个圆",
+      "score": null,
+      "points": [
+        [
+          60.21126760563381,
+          55.164319248826295
+        ],
+        [
+          109.50704225352113,
+          55.164319248826295
+        ],
+        [
+          109.50704225352113,
+          105.86854460093896
+        ],
+        [
+          60.21126760563381,
+          105.86854460093896
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "小熊",
+      "score": null,
+      "points": [
+        [
+          194.48356807511738,
+          103.9906103286385
+        ],
+        [
+          243.07511737089203,
+          103.9906103286385
+        ],
+        [
+          243.07511737089203,
+          151.6431924882629
+        ],
+        [
+          194.48356807511738,
+          151.6431924882629
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "吃豆人",
+      "score": null,
+      "points": [
+        [
+          10.91549295774648,
+          127.46478873239435
+        ],
+        [
+          62.32394366197184,
+          127.46478873239435
+        ],
+        [
+          62.32394366197184,
+          176.99530516431926
+        ],
+        [
+          10.91549295774648,
+          176.99530516431926
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "97.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

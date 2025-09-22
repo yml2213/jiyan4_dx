@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "牙齿",
+      "score": null,
+      "points": [
+        [
+          10.211267605633804,
+          80.0469483568075
+        ],
+        [
+          59.507042253521135,
+          80.0469483568075
+        ],
+        [
+          59.507042253521135,
+          131.45539906103286
+        ],
+        [
+          10.211267605633804,
+          131.45539906103286
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "闹钟",
+      "score": null,
+      "points": [
+        [
+          91.19718309859155,
+          58.92018779342723
+        ],
+        [
+          144.2488262910798,
+          58.92018779342723
+        ],
+        [
+          144.2488262910798,
+          103.75586854460094
+        ],
+        [
+          91.19718309859155,
+          103.75586854460094
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "鸭子",
+      "score": null,
+      "points": [
+        [
+          214.67136150234742,
+          8.92018779342723
+        ],
+        [
+          267.9577464788733,
+          8.92018779342723
+        ],
+        [
+          267.9577464788733,
+          57.04225352112676
+        ],
+        [
+          214.67136150234742,
+          57.04225352112676
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "100.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

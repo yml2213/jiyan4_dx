@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "垃圾桶",
+      "score": null,
+      "points": [
+        [
+          29.929577464788732,
+          119.48356807511738
+        ],
+        [
+          82.04225352112677,
+          119.48356807511738
+        ],
+        [
+          82.04225352112677,
+          168.54460093896716
+        ],
+        [
+          29.929577464788732,
+          168.54460093896716
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "弹弓",
+      "score": null,
+      "points": [
+        [
+          73.12206572769954,
+          45.30516431924883
+        ],
+        [
+          127.58215962441315,
+          45.30516431924883
+        ],
+        [
+          127.58215962441315,
+          95.07042253521126
+        ],
+        [
+          73.12206572769954,
+          95.07042253521126
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "飞机",
+      "score": null,
+      "points": [
+        [
+          12.55868544600939,
+          28.87323943661972
+        ],
+        [
+          60.21126760563381,
+          28.87323943661972
+        ],
+        [
+          60.21126760563381,
+          79.81220657276995
+        ],
+        [
+          12.55868544600939,
+          79.81220657276995
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "27.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

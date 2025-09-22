@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "帽子",
+      "score": null,
+      "points": [
+        [
+          64.67136150234742,
+          3.051643192488263
+        ],
+        [
+          114.2018779342723,
+          3.051643192488263
+        ],
+        [
+          114.2018779342723,
+          52.58215962441315
+        ],
+        [
+          64.67136150234742,
+          52.58215962441315
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "沙漏",
+      "score": null,
+      "points": [
+        [
+          130.39906103286384,
+          18.07511737089202
+        ],
+        [
+          176.17370892018778,
+          18.07511737089202
+        ],
+        [
+          176.17370892018778,
+          68.30985915492957
+        ],
+        [
+          130.39906103286384,
+          68.30985915492957
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "发送两激光",
+      "score": null,
+      "points": [
+        [
+          88.84976525821597,
+          91.07981220657277
+        ],
+        [
+          143.7793427230047,
+          91.07981220657277
+        ],
+        [
+          143.7793427230047,
+          142.48826291079814
+        ],
+        [
+          88.84976525821597,
+          142.48826291079814
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "43.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

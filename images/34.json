@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "垃圾桶",
+      "score": null,
+      "points": [
+        [
+          72.88732394366198,
+          40.140845070422536
+        ],
+        [
+          119.3661971830986,
+          40.140845070422536
+        ],
+        [
+          119.3661971830986,
+          88.96713615023474
+        ],
+        [
+          72.88732394366198,
+          88.96713615023474
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "相框",
+      "score": null,
+      "points": [
+        [
+          54.34272300469484,
+          126.05633802816901
+        ],
+        [
+          102.69953051643193,
+          126.05633802816901
+        ],
+        [
+          102.69953051643193,
+          180.04694835680752
+        ],
+        [
+          54.34272300469484,
+          180.04694835680752
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "指南针",
+      "score": null,
+      "points": [
+        [
+          166.31455399061034,
+          112.44131455399061
+        ],
+        [
+          218.42723004694835,
+          112.44131455399061
+        ],
+        [
+          218.42723004694835,
+          161.97183098591552
+        ],
+        [
+          166.31455399061034,
+          161.97183098591552
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "34.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

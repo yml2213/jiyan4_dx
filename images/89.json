@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "小风扇",
+      "score": null,
+      "points": [
+        [
+          54.34272300469484,
+          4.460093896713615
+        ],
+        [
+          105.04694835680752,
+          4.460093896713615
+        ],
+        [
+          105.04694835680752,
+          57.27699530516432
+        ],
+        [
+          54.34272300469484,
+          57.27699530516432
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "杯子冰淇淋",
+      "score": null,
+      "points": [
+        [
+          111.3849765258216,
+          116.66666666666667
+        ],
+        [
+          157.8638497652582,
+          116.66666666666667
+        ],
+        [
+          157.8638497652582,
+          165.49295774647888
+        ],
+        [
+          111.3849765258216,
+          165.49295774647888
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "发送两激光",
+      "score": null,
+      "points": [
+        [
+          214.90610328638496,
+          16.19718309859155
+        ],
+        [
+          260.9154929577465,
+          16.19718309859155
+        ],
+        [
+          260.9154929577465,
+          65.72769953051643
+        ],
+        [
+          214.90610328638496,
+          65.72769953051643
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "89.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

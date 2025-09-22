@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "铃铛",
+      "score": null,
+      "points": [
+        [
+          90.02347417840376,
+          50.93896713615024
+        ],
+        [
+          140.49295774647888,
+          50.93896713615024
+        ],
+        [
+          140.49295774647888,
+          96.47887323943662
+        ],
+        [
+          90.02347417840376,
+          96.47887323943662
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "对开门",
+      "score": null,
+      "points": [
+        [
+          149.17840375586854,
+          88.73239436619718
+        ],
+        [
+          202.93427230046947,
+          88.73239436619718
+        ],
+        [
+          202.93427230046947,
+          146.24413145539907
+        ],
+        [
+          149.17840375586854,
+          146.24413145539907
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "香炉",
+      "score": null,
+      "points": [
+        [
+          13.732394366197184,
+          10.093896713615024
+        ],
+        [
+          69.83568075117371,
+          10.093896713615024
+        ],
+        [
+          69.83568075117371,
+          58.45070422535212
+        ],
+        [
+          13.732394366197184,
+          58.45070422535212
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "31.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

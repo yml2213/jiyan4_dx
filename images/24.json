@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "钩子",
+      "score": null,
+      "points": [
+        [
+          104.34272300469485,
+          98.12206572769954
+        ],
+        [
+          159.27230046948355,
+          98.12206572769954
+        ],
+        [
+          159.27230046948355,
+          156.3380281690141
+        ],
+        [
+          104.34272300469485,
+          156.3380281690141
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "筷子碗",
+      "score": null,
+      "points": [
+        [
+          133.4507042253521,
+          18.30985915492958
+        ],
+        [
+          184.85915492957747,
+          18.30985915492958
+        ],
+        [
+          184.85915492957747,
+          70.65727699530517
+        ],
+        [
+          133.4507042253521,
+          70.65727699530517
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "相机",
+      "score": null,
+      "points": [
+        [
+          204.10798122065728,
+          105.16431924882629
+        ],
+        [
+          258.33333333333337,
+          105.16431924882629
+        ],
+        [
+          258.33333333333337,
+          156.3380281690141
+        ],
+        [
+          204.10798122065728,
+          156.3380281690141
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "24.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

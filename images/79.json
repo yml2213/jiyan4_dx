@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "树叶",
+      "score": null,
+      "points": [
+        [
+          173.59154929577466,
+          64.08450704225352
+        ],
+        [
+          226.40845070422534,
+          64.08450704225352
+        ],
+        [
+          226.40845070422534,
+          118.77934272300469
+        ],
+        [
+          173.59154929577466,
+          118.77934272300469
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "弹弓",
+      "score": null,
+      "points": [
+        [
+          40.49295774647888,
+          89.2018779342723
+        ],
+        [
+          90.02347417840376,
+          89.2018779342723
+        ],
+        [
+          90.02347417840376,
+          142.95774647887325
+        ],
+        [
+          40.49295774647888,
+          142.95774647887325
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "吃豆人",
+      "score": null,
+      "points": [
+        [
+          144.95305164319248,
+          126.29107981220658
+        ],
+        [
+          195.89201877934272,
+          126.29107981220658
+        ],
+        [
+          195.89201877934272,
+          177.9342723004695
+        ],
+        [
+          144.95305164319248,
+          177.9342723004695
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "79.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

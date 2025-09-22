@@ -1,0 +1,98 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "kie_linking": [],
+      "label": "乌龟",
+      "score": null,
+      "points": [
+        [
+          53.87323943661972,
+          64.55399061032864
+        ],
+        [
+          107.3943661971831,
+          64.55399061032864
+        ],
+        [
+          107.3943661971831,
+          113.6150234741784
+        ],
+        [
+          53.87323943661972,
+          113.6150234741784
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "kie_linking": [],
+      "label": "摄像头",
+      "score": null,
+      "points": [
+        [
+          185.32863849765258,
+          28.403755868544604
+        ],
+        [
+          244.2488262910798,
+          28.403755868544604
+        ],
+        [
+          244.2488262910798,
+          79.10798122065728
+        ],
+        [
+          185.32863849765258,
+          79.10798122065728
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "kie_linking": [],
+      "label": "沙漏",
+      "score": null,
+      "points": [
+        [
+          151.99530516431923,
+          86.61971830985915
+        ],
+        [
+          202.69953051643193,
+          86.61971830985915
+        ],
+        [
+          202.69953051643193,
+          136.85446009389673
+        ],
+        [
+          151.99530516431923,
+          136.85446009389673
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "90.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300,
+  "description": ""
+}

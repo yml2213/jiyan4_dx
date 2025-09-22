@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "猫头鹰",
+      "score": null,
+      "points": [
+        [
+          160.68075117370893,
+          104.92957746478874
+        ],
+        [
+          210.68075117370893,
+          104.92957746478874
+        ],
+        [
+          210.68075117370893,
+          151.87793427230048
+        ],
+        [
+          160.68075117370893,
+          151.87793427230048
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "三角蘑菇",
+      "score": null,
+      "points": [
+        [
+          122.41784037558686,
+          8.450704225352114
+        ],
+        [
+          170.53990610328637,
+          8.450704225352114
+        ],
+        [
+          170.53990610328637,
+          56.33802816901409
+        ],
+        [
+          122.41784037558686,
+          56.33802816901409
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "核辐射",
+      "score": null,
+      "points": [
+        [
+          4.342723004694836,
+          122.06572769953051
+        ],
+        [
+          53.40375586854461,
+          122.06572769953051
+        ],
+        [
+          53.40375586854461,
+          169.48356807511738
+        ],
+        [
+          4.342723004694836,
+          169.48356807511738
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "32.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

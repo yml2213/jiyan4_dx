@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "铜钱",
+      "score": null,
+      "points": [
+        [
+          86.50234741784038,
+          19.71830985915493
+        ],
+        [
+          136.03286384976525,
+          19.71830985915493
+        ],
+        [
+          136.03286384976525,
+          67.13615023474178
+        ],
+        [
+          86.50234741784038,
+          67.13615023474178
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "碰杯",
+      "score": null,
+      "points": [
+        [
+          150.35211267605632,
+          109.6244131455399
+        ],
+        [
+          199.17840375586854,
+          109.6244131455399
+        ],
+        [
+          199.17840375586854,
+          162.6760563380282
+        ],
+        [
+          150.35211267605632,
+          162.6760563380282
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "喷壶",
+      "score": null,
+      "points": [
+        [
+          219.3661971830986,
+          124.88262910798122
+        ],
+        [
+          272.65258215962444,
+          124.88262910798122
+        ],
+        [
+          272.65258215962444,
+          177.23004694835683
+        ],
+        [
+          219.3661971830986,
+          177.23004694835683
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "37.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

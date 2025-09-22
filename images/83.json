@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "熊爪",
+      "score": null,
+      "points": [
+        [
+          61.3849765258216,
+          64.55399061032864
+        ],
+        [
+          114.2018779342723,
+          64.55399061032864
+        ],
+        [
+          114.2018779342723,
+          111.50234741784037
+        ],
+        [
+          61.3849765258216,
+          111.50234741784037
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "鸭子",
+      "score": null,
+      "points": [
+        [
+          191.43192488262912,
+          98.82629107981221
+        ],
+        [
+          242.6056338028169,
+          98.82629107981221
+        ],
+        [
+          242.6056338028169,
+          141.31455399061034
+        ],
+        [
+          191.43192488262912,
+          141.31455399061034
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "蚂蚱",
+      "score": null,
+      "points": [
+        [
+          212.79342723004694,
+          31.690140845070424
+        ],
+        [
+          261.15023474178406,
+          31.690140845070424
+        ],
+        [
+          261.15023474178406,
+          85.44600938967136
+        ],
+        [
+          212.79342723004694,
+          85.44600938967136
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "83.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

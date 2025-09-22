@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "时钟",
+      "score": null,
+      "points": [
+        [
+          9.507042253521128,
+          23.47417840375587
+        ],
+        [
+          58.333333333333336,
+          23.47417840375587
+        ],
+        [
+          58.333333333333336,
+          70.89201877934272
+        ],
+        [
+          9.507042253521128,
+          70.89201877934272
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "钩子",
+      "score": null,
+      "points": [
+        [
+          101.52582159624414,
+          15.962441314553992
+        ],
+        [
+          154.34272300469482,
+          15.962441314553992
+        ],
+        [
+          154.34272300469482,
+          73.00469483568075
+        ],
+        [
+          101.52582159624414,
+          73.00469483568075
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "铜钱",
+      "score": null,
+      "points": [
+        [
+          164.2018779342723,
+          97.41784037558685
+        ],
+        [
+          216.54929577464787,
+          97.41784037558685
+        ],
+        [
+          216.54929577464787,
+          142.25352112676057
+        ],
+        [
+          164.2018779342723,
+          142.25352112676057
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "75.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

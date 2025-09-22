@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "垃圾桶",
+      "score": null,
+      "points": [
+        [
+          57.15962441314554,
+          50.46948356807512
+        ],
+        [
+          108.5680751173709,
+          50.46948356807512
+        ],
+        [
+          108.5680751173709,
+          99.76525821596243
+        ],
+        [
+          57.15962441314554,
+          99.76525821596243
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "手雷",
+      "score": null,
+      "points": [
+        [
+          138.84976525821597,
+          63.61502347417841
+        ],
+        [
+          190.72769953051642,
+          63.61502347417841
+        ],
+        [
+          190.72769953051642,
+          111.97183098591549
+        ],
+        [
+          138.84976525821597,
+          111.97183098591549
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "摩天轮",
+      "score": null,
+      "points": [
+        [
+          208.09859154929578,
+          22.300469483568076
+        ],
+        [
+          258.0985915492958,
+          22.300469483568076
+        ],
+        [
+          258.0985915492958,
+          74.64788732394366
+        ],
+        [
+          208.09859154929578,
+          74.64788732394366
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "61.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "钱袋",
+      "score": null,
+      "points": [
+        [
+          77.11267605633803,
+          103.52112676056338
+        ],
+        [
+          123.12206572769954,
+          103.52112676056338
+        ],
+        [
+          123.12206572769954,
+          155.1643192488263
+        ],
+        [
+          77.11267605633803,
+          155.1643192488263
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "大树模型",
+      "score": null,
+      "points": [
+        [
+          158.33333333333334,
+          111.26760563380282
+        ],
+        [
+          212.79342723004694,
+          111.26760563380282
+        ],
+        [
+          212.79342723004694,
+          159.62441314553993
+        ],
+        [
+          158.33333333333334,
+          159.62441314553993
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "竹笋模型",
+      "score": null,
+      "points": [
+        [
+          195.65727699530515,
+          37.32394366197183
+        ],
+        [
+          246.5962441314554,
+          37.32394366197183
+        ],
+        [
+          246.5962441314554,
+          88.26291079812206
+        ],
+        [
+          195.65727699530515,
+          88.26291079812206
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "65.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

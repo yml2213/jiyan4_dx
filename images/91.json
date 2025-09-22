@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "拉琴",
+      "score": null,
+      "points": [
+        [
+          31.807511737089204,
+          51.1737089201878
+        ],
+        [
+          86.73708920187794,
+          51.1737089201878
+        ],
+        [
+          86.73708920187794,
+          102.58215962441314
+        ],
+        [
+          31.807511737089204,
+          102.58215962441314
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "汉堡",
+      "score": null,
+      "points": [
+        [
+          98.47417840375587,
+          38.967136150234744
+        ],
+        [
+          149.4131455399061,
+          38.967136150234744
+        ],
+        [
+          149.4131455399061,
+          89.43661971830986
+        ],
+        [
+          98.47417840375587,
+          89.43661971830986
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "钥匙",
+      "score": null,
+      "points": [
+        [
+          175.93896713615024,
+          69.71830985915493
+        ],
+        [
+          228.5211267605634,
+          69.71830985915493
+        ],
+        [
+          228.5211267605634,
+          122.76995305164318
+        ],
+        [
+          175.93896713615024,
+          122.76995305164318
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "91.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

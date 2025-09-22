@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "玩具头",
+      "score": null,
+      "points": [
+        [
+          14.906103286384978,
+          21.126760563380284
+        ],
+        [
+          66.78403755868545,
+          21.126760563380284
+        ],
+        [
+          66.78403755868545,
+          67.13615023474178
+        ],
+        [
+          14.906103286384978,
+          67.13615023474178
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "垃圾桶",
+      "score": null,
+      "points": [
+        [
+          91.43192488262912,
+          80.0469483568075
+        ],
+        [
+          141.4319248826291,
+          80.0469483568075
+        ],
+        [
+          141.4319248826291,
+          134.27230046948358
+        ],
+        [
+          91.43192488262912,
+          134.27230046948358
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "墓碑",
+      "score": null,
+      "points": [
+        [
+          17.253521126760564,
+          104.92957746478874
+        ],
+        [
+          64.90610328638498,
+          104.92957746478874
+        ],
+        [
+          64.90610328638498,
+          157.5117370892019
+        ],
+        [
+          17.253521126760564,
+          157.5117370892019
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "76.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

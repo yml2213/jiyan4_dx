@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "核辐射",
+      "score": null,
+      "points": [
+        [
+          15.375586854460094,
+          60.093896713615024
+        ],
+        [
+          67.72300469483568,
+          60.093896713615024
+        ],
+        [
+          67.72300469483568,
+          105.39906103286384
+        ],
+        [
+          15.375586854460094,
+          105.39906103286384
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "摄像头",
+      "score": null,
+      "points": [
+        [
+          126.64319248826291,
+          84.27230046948357
+        ],
+        [
+          176.40845070422534,
+          84.27230046948357
+        ],
+        [
+          176.40845070422534,
+          135.4460093896714
+        ],
+        [
+          126.64319248826291,
+          135.4460093896714
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "吉他",
+      "score": null,
+      "points": [
+        [
+          218.66197183098592,
+          60.093896713615024
+        ],
+        [
+          272.65258215962444,
+          60.093896713615024
+        ],
+        [
+          272.65258215962444,
+          102.58215962441314
+        ],
+        [
+          218.66197183098592,
+          102.58215962441314
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "80.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

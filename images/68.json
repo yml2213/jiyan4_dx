@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "弓箭",
+      "score": null,
+      "points": [
+        [
+          85.79812206572771,
+          11.267605633802818
+        ],
+        [
+          134.38967136150234,
+          11.267605633802818
+        ],
+        [
+          134.38967136150234,
+          60.7981220657277
+        ],
+        [
+          85.79812206572771,
+          60.7981220657277
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "碰杯",
+      "score": null,
+      "points": [
+        [
+          188.84976525821597,
+          12.910798122065728
+        ],
+        [
+          236.9718309859155,
+          12.910798122065728
+        ],
+        [
+          236.9718309859155,
+          58.21596244131456
+        ],
+        [
+          188.84976525821597,
+          58.21596244131456
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "弹弓",
+      "score": null,
+      "points": [
+        [
+          69.13145539906104,
+          123.94366197183099
+        ],
+        [
+          125.00000000000001,
+          123.94366197183099
+        ],
+        [
+          125.00000000000001,
+          173.943661971831
+        ],
+        [
+          69.13145539906104,
+          173.943661971831
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "68.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

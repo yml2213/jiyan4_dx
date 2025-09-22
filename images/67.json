@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "大炮",
+      "score": null,
+      "points": [
+        [
+          118.1924882629108,
+          5.164319248826292
+        ],
+        [
+          168.42723004694835,
+          5.164319248826292
+        ],
+        [
+          168.42723004694835,
+          54.225352112676056
+        ],
+        [
+          118.1924882629108,
+          54.225352112676056
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "时钟",
+      "score": null,
+      "points": [
+        [
+          73.35680751173709,
+          97.1830985915493
+        ],
+        [
+          125.93896713615024,
+          97.1830985915493
+        ],
+        [
+          125.93896713615024,
+          145.5399061032864
+        ],
+        [
+          73.35680751173709,
+          145.5399061032864
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "人大钥匙",
+      "score": null,
+      "points": [
+        [
+          194.95305164319248,
+          66.19718309859155
+        ],
+        [
+          241.90140845070422,
+          66.19718309859155
+        ],
+        [
+          241.90140845070422,
+          119.95305164319248
+        ],
+        [
+          194.95305164319248,
+          119.95305164319248
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "67.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

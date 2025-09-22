@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "鼓",
+      "score": null,
+      "points": [
+        [
+          72.65258215962442,
+          29.577464788732396
+        ],
+        [
+          128.9906103286385,
+          29.577464788732396
+        ],
+        [
+          128.9906103286385,
+          78.16901408450704
+        ],
+        [
+          72.65258215962442,
+          78.16901408450704
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "大炮",
+      "score": null,
+      "points": [
+        [
+          38.61502347417841,
+          113.84976525821597
+        ],
+        [
+          97.53521126760565,
+          113.84976525821597
+        ],
+        [
+          97.53521126760565,
+          168.3098591549296
+        ],
+        [
+          38.61502347417841,
+          168.3098591549296
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "颜料一坨",
+      "score": null,
+      "points": [
+        [
+          144.7183098591549,
+          126.99530516431925
+        ],
+        [
+          197.06572769953053,
+          126.99530516431925
+        ],
+        [
+          197.06572769953053,
+          175.11737089201878
+        ],
+        [
+          144.7183098591549,
+          175.11737089201878
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "85.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

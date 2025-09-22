@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "垃圾桶",
+      "score": null,
+      "points": [
+        [
+          140.2582159624413,
+          7.042253521126762
+        ],
+        [
+          190.49295774647888,
+          7.042253521126762
+        ],
+        [
+          190.49295774647888,
+          57.27699530516432
+        ],
+        [
+          140.2582159624413,
+          57.27699530516432
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "浴缸",
+      "score": null,
+      "points": [
+        [
+          219.60093896713616,
+          37.79342723004695
+        ],
+        [
+          271.71361502347423,
+          37.79342723004695
+        ],
+        [
+          271.71361502347423,
+          91.54929577464789
+        ],
+        [
+          219.60093896713616,
+          91.54929577464789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "乒乓球拍",
+      "score": null,
+      "points": [
+        [
+          55.98591549295775,
+          123.70892018779342
+        ],
+        [
+          108.33333333333334,
+          123.70892018779342
+        ],
+        [
+          108.33333333333334,
+          178.87323943661974
+        ],
+        [
+          55.98591549295775,
+          178.87323943661974
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "71.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

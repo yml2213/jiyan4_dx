@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "帽子",
+      "score": null,
+      "points": [
+        [
+          121.94835680751174,
+          15.258215962441316
+        ],
+        [
+          173.12206572769952,
+          15.258215962441316
+        ],
+        [
+          173.12206572769952,
+          64.31924882629107
+        ],
+        [
+          121.94835680751174,
+          64.31924882629107
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "工具箱",
+      "score": null,
+      "points": [
+        [
+          205.28169014084506,
+          57.981220657277
+        ],
+        [
+          258.0985915492958,
+          57.981220657277
+        ],
+        [
+          258.0985915492958,
+          108.45070422535211
+        ],
+        [
+          205.28169014084506,
+          108.45070422535211
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "吸铁石",
+      "score": null,
+      "points": [
+        [
+          12.089201877934274,
+          92.01877934272301
+        ],
+        [
+          66.54929577464789,
+          92.01877934272301
+        ],
+        [
+          66.54929577464789,
+          140.84507042253523
+        ],
+        [
+          12.089201877934274,
+          140.84507042253523
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "49.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

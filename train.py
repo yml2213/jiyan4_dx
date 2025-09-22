@@ -5,15 +5,48 @@ from PIL import Image
 from torch.utils.data import DataLoader, Dataset
 from torchvision.transforms import transforms
 from tqdm import tqdm
+from utils_size import auto_hw_from_ref
+import time
 
 os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
-# 将模型移动到GPU上（如果有可用的话）
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# 图片划分为5x3去识别
-needJj = [5,3]
-# 图片压缩为的大小
-tpxz = ( 192,320)
+# 设备选择：优先 CUDA，其次 Apple MPS，最后 CPU
+def _has_mps() -> bool:
+    backends = getattr(torch, "backends", None)
+    mps = getattr(backends, "mps", None) if backends is not None else None
+    try:
+        return bool(mps is not None and hasattr(mps, "is_available") and mps.is_available())
+    except Exception:
+        return False
+
+force_dev = os.getenv("FORCE_DEVICE")
+if force_dev in {"cpu", "cuda", "mps"}:
+    device = torch.device(force_dev)
+elif torch.cuda.is_available():
+    device = torch.device("cuda")
+elif _has_mps():
+    device = torch.device("mps")
+else:
+    device = torch.device("cpu")
+print("Using device:", device)
+
+def _sync_device():
+    try:
+        if device.type == 'cuda':
+            torch.cuda.synchronize()
+        elif device.type == 'mps':
+            import torch.mps  # type: ignore
+            torch.mps.synchronize()  # noqa: F401
+    except Exception:
+        pass
+
+# 根据参考图像自适应输入大小（保证为 64 的倍数）
+_h, _w, _gw, _gh = auto_hw_from_ref('images/1.jpg', multiple=64, default_hw=(192, 320))
+
+# 网格划分（宽×高），等于输入尺寸除以 64
+needJj = [_gw, _gh]
+# 图片压缩为的大小（h, w）——transforms.Resize 约定顺序为 (h, w)
+tpxz = (_h, _w)
 
 def euclidean_distance(p1, p2):
     '''
@@ -197,17 +230,20 @@ class getData(Dataset):
 
     def __getitem__(self, item):
         dt = self.data[item]
-        lp = open(dt[1], encoding='utf-8')
-        kj = lp.read()
-        lp.close()
-        h = [ i.strip().split(' ') for i in kj.split('\n')]
-        if len(h[-1]) <= 1:
-            h.pop()
-        for i in h:
-            if len(i) == 1:
+        with open(dt[1], encoding='utf-8') as lp:
+            kj = lp.read()
+        # 解析标签为浮点数列表，跳过空行/无效行
+        rows = [ln.strip() for ln in kj.split('\n') if ln.strip()]
+        h = []  # list[list[float]]
+        for ln in rows:
+            parts = ln.split()
+            if len(parts) < 5:
                 continue
-            for ig in range(len(i)):
-                i[ig] = float(i[ig])
+            try:
+                nums = [float(x) for x in parts]
+                h.append(nums)
+            except Exception:
+                continue
         imge = Image.open(dt[0]).convert('RGB')
         img = self.tpcl(imge).permute(0, 2,1)
         xz = 1 / needJj[0]
@@ -215,22 +251,22 @@ class getData(Dataset):
 
         target = torch.zeros((needJj[0],needJj[1],9,6)).to(device)
 
-        for x in range(needJj[0]):
-            for i in range(needJj[1]):
-                sj = [xz*x, yz*i, xz*x+xz, yz*i+yz]
-                for ges,ko in enumerate(h):
-                    ges = 0
+        for gx in range(needJj[0]):
+            for gy in range(needJj[1]):
+                sj = [xz*gx, yz*gy, xz*gx+xz, yz*gy+yz]
+                for _, ko in enumerate(h):
+                    ges = 0  # 与原逻辑一致，固定写入候选槽 0
                     kol = [ko[1]-ko[3]/2, ko[2]-ko[4]/2, ko[1]+ko[3]/2, ko[2]+ko[4]/2]
                     lpijk = self.niou([sj[0], sj[1], sj[2], sj[3]], [kol[0], kol[1], kol[2], kol[3]])
-                    if self.pdisIn(sj[0], sj[1], sj[2], sj[3], kol[0], kol[1], kol[2], kol[3]) == True and lpijk>0.1 and lpijk > target[x,i,ges,4]:
-                        target[x,i,ges,0] = ko[1]
-                        target[x,i,ges,1] = ko[2]
-                        target[x,i,ges,2] = ko[3]
-                        target[x,i,ges,3] = ko[4]
-                        target[x,i,ges,4] = lpijk
-                        # target[x, i, ges, 5:] = 0
-                        target[x, i, ges, 5] = 1
-                        # target[x,i,ges,int(ko[0])+6] = 1
+                    if self.pdisIn(sj[0], sj[1], sj[2], sj[3], kol[0], kol[1], kol[2], kol[3]) and lpijk > 0.1 and lpijk > target[gx, gy, ges, 4]:
+                        target[gx, gy, ges, 0] = ko[1]
+                        target[gx, gy, ges, 1] = ko[2]
+                        target[gx, gy, ges, 2] = ko[3]
+                        target[gx, gy, ges, 3] = ko[4]
+                        target[gx, gy, ges, 4] = lpijk
+                        # target[gx, gy, ges, 5:] = 0
+                        target[gx, gy, ges, 5] = 1.0
+                        # target[gx, gy, ges, int(ko[0]) + 6] = 1
                     # else:
                     #     target[x, i, ges, 4:] = 0
                         # target[x,i,ges,5] = 0
@@ -359,32 +395,75 @@ maxLoss = 10000
 epochs = int(os.getenv("EPOCHS", "100"))
 batch_size = int(os.getenv("BATCH_SIZE", "30"))
 
-for i in range(epochs):
+ep_bar = tqdm(range(epochs), desc="总进度", position=0, leave=True)
+for i in ep_bar:
 
     sx = 0
     cs = 0
     csl = 0
     zxdss = 0
-    datae = DataLoader(data, shuffle=True, batch_size=batch_size)
+    # 可调的 DataLoader 参数（用于性能调优）
+    num_workers = int(os.getenv("NUM_WORKERS", "0"))
+    prefetch_factor = int(os.getenv("PREFETCH_FACTOR", "2"))
+    dl_kwargs = dict(shuffle=True, batch_size=batch_size)
+    if num_workers > 0:
+        dl_kwargs.update(dict(num_workers=num_workers, persistent_workers=True, prefetch_factor=prefetch_factor))
+    datae = DataLoader(data, **dl_kwargs)
 
-    datad = tqdm(datae)
-    for img,tar in datad:
-        optm.zero_grad()
-        out = mymodo(img)
-        loss, ub, zxd =meLoss(out, tar)
-        loss.backward()
-        optm.step()
-        sx += loss.item()
-        cs += ub.item()
-        zxdss += zxd.item()
-        csl += 1
+    profile = os.getenv("PROFILE", "0") == "1"
+    t_prev_end = time.perf_counter()
+    acc_load = acc_fwd = acc_loss = acc_bwd = acc_step = 0.0
 
-        datad.set_description("训练 loss {} epch {} iou {} zxd {}".format(sx/csl, i, cs/csl, zxdss/csl))
+    # 迭代进度条：放在第二行，完成后不保留，避免结束时出现 0%
+    total_steps = len(datae) if hasattr(datae, "__len__") else None
+    with tqdm(datae, total=total_steps, desc=f"第{i+1}/{epochs}轮", position=1, leave=False) as datad:
+        for img, tar in datad:
+            t0 = time.perf_counter()
+            acc_load += max(0.0, t0 - t_prev_end)
+            optm.zero_grad()
+            _sync_device();
+            t1 = time.perf_counter()
+            out = mymodo(img)
+            _sync_device();
+            t2 = time.perf_counter()
+            loss, ub, zxd = meLoss(out, tar)
+            _sync_device();
+            t3 = time.perf_counter()
+            loss.backward()
+            _sync_device();
+            t4 = time.perf_counter()
+            optm.step()
+            _sync_device();
+            t5 = time.perf_counter()
+            acc_fwd += t2 - t1
+            acc_loss += t3 - t2
+            acc_bwd += t4 - t3
+            acc_step += t5 - t4
+            t_prev_end = t5
+            sx += loss.item()
+            cs += ub.item()
+            zxdss += zxd.item()
+            csl += 1
 
-    if sx/csl < maxLoss:
-        torch.save( mymodo, './mox2.pth')
+            datad.set_description("训练 loss {:.6f} epch {} iou {:.6f} zxd {:.6f}".format(sx / max(csl,1), i, cs / max(csl,1), zxdss / max(csl,1)))
+
+    if profile:
+        total = acc_load + acc_fwd + acc_loss + acc_bwd + acc_step
+        print("[PROFILE] load={:.3f}s fwd={:.3f}s loss={:.3f}s bwd={:.3f}s step={:.3f}s total={:.3f}s".format(
+            acc_load, acc_fwd, acc_loss, acc_bwd, acc_step, total
+        ))
+
+    # 更新总进度条的摘要信息
+    if csl > 0:
+        ep_bar.set_postfix(loss=f"{sx/csl:.6f}", iou=f"{cs/csl:.6f}", zxd=f"{zxdss/csl:.6f}")
+
+    if csl > 0 and sx / csl < maxLoss:
+        torch.save(mymodo, './mox2.pth')
         print("保存模型===》")
-        maxLoss =sx/csl
+        maxLoss = sx / csl
+
+# 训练结束后输出完成提示，确保“总进度”达到 100%
+tqdm.write("训练完成：{} 轮，最优 loss = {:.6f}".format(epochs, maxLoss))
 
 
 

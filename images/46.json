@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "小熊",
+      "score": null,
+      "points": [
+        [
+          11.150234741784038,
+          39.67136150234742
+        ],
+        [
+          58.568075117370896,
+          39.67136150234742
+        ],
+        [
+          58.568075117370896,
+          85.91549295774648
+        ],
+        [
+          11.150234741784038,
+          85.91549295774648
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "脑子",
+      "score": null,
+      "points": [
+        [
+          158.56807511737088,
+          111.73708920187794
+        ],
+        [
+          206.69014084507043,
+          111.73708920187794
+        ],
+        [
+          206.69014084507043,
+          160.09389671361504
+        ],
+        [
+          158.56807511737088,
+          160.09389671361504
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "吸铁石",
+      "score": null,
+      "points": [
+        [
+          168.89671361502346,
+          3.286384976525822
+        ],
+        [
+          217.72300469483568,
+          3.286384976525822
+        ],
+        [
+          217.72300469483568,
+          53.051643192488264
+        ],
+        [
+          168.89671361502346,
+          53.051643192488264
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "46.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "帽子",
+      "score": null,
+      "points": [
+        [
+          17.253521126760564,
+          96.47887323943662
+        ],
+        [
+          69.83568075117371,
+          96.47887323943662
+        ],
+        [
+          69.83568075117371,
+          148.12206572769955
+        ],
+        [
+          17.253521126760564,
+          148.12206572769955
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "化妆盒",
+      "score": null,
+      "points": [
+        [
+          151.52582159624413,
+          6.103286384976526
+        ],
+        [
+          202.69953051643193,
+          6.103286384976526
+        ],
+        [
+          202.69953051643193,
+          56.33802816901409
+        ],
+        [
+          151.52582159624413,
+          56.33802816901409
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "蜻蜓",
+      "score": null,
+      "points": [
+        [
+          207.15962441314554,
+          123.00469483568075
+        ],
+        [
+          260.9154929577465,
+          123.00469483568075
+        ],
+        [
+          260.9154929577465,
+          172.3004694835681
+        ],
+        [
+          207.15962441314554,
+          172.3004694835681
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "12.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

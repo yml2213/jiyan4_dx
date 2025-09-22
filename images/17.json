@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "钥匙",
+      "score": null,
+      "points": [
+        [
+          175.0,
+          88.73239436619718
+        ],
+        [
+          227.11267605633802,
+          88.73239436619718
+        ],
+        [
+          227.11267605633802,
+          134.03755868544602
+        ],
+        [
+          175.0,
+          134.03755868544602
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "钱袋",
+      "score": null,
+      "points": [
+        [
+          110.44600938967137,
+          104.69483568075117
+        ],
+        [
+          157.62910798122064,
+          104.69483568075117
+        ],
+        [
+          157.62910798122064,
+          155.1643192488263
+        ],
+        [
+          110.44600938967137,
+          155.1643192488263
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "颜料一坨",
+      "score": null,
+      "points": [
+        [
+          96.5962441314554,
+          13.380281690140846
+        ],
+        [
+          142.37089201877933,
+          13.380281690140846
+        ],
+        [
+          142.37089201877933,
+          61.971830985915496
+        ],
+        [
+          96.5962441314554,
+          61.971830985915496
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "17.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

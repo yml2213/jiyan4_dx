@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "汽车",
+      "score": null,
+      "points": [
+        [
+          194.7183098591549,
+          32.3943661971831
+        ],
+        [
+          242.84037558685446,
+          32.3943661971831
+        ],
+        [
+          242.84037558685446,
+          82.62910798122066
+        ],
+        [
+          194.7183098591549,
+          82.62910798122066
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "树叶",
+      "score": null,
+      "points": [
+        [
+          52.93427230046949,
+          61.26760563380282
+        ],
+        [
+          95.18779342723005,
+          61.26760563380282
+        ],
+        [
+          95.18779342723005,
+          111.50234741784037
+        ],
+        [
+          52.93427230046949,
+          111.50234741784037
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "圆饼",
+      "score": null,
+      "points": [
+        [
+          174.29577464788733,
+          103.28638497652582
+        ],
+        [
+          228.5211267605634,
+          103.28638497652582
+        ],
+        [
+          228.5211267605634,
+          151.6431924882629
+        ],
+        [
+          174.29577464788733,
+          151.6431924882629
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "88.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

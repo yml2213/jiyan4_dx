@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "汉堡",
+      "score": null,
+      "points": [
+        [
+          40.72769953051644,
+          12.206572769953052
+        ],
+        [
+          89.31924882629109,
+          12.206572769953052
+        ],
+        [
+          89.31924882629109,
+          54.929577464788736
+        ],
+        [
+          40.72769953051644,
+          54.929577464788736
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "碰杯",
+      "score": null,
+      "points": [
+        [
+          98.23943661971832,
+          88.02816901408451
+        ],
+        [
+          146.1267605633803,
+          88.02816901408451
+        ],
+        [
+          146.1267605633803,
+          134.97652582159625
+        ],
+        [
+          98.23943661971832,
+          134.97652582159625
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "两长挂件",
+      "score": null,
+      "points": [
+        [
+          170.53990610328637,
+          87.79342723004694
+        ],
+        [
+          220.30516431924883,
+          87.79342723004694
+        ],
+        [
+          220.30516431924883,
+          144.13145539906105
+        ],
+        [
+          170.53990610328637,
+          144.13145539906105
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "95.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "时钟",
+      "score": null,
+      "points": [
+        [
+          68.1924882629108,
+          50.70422535211268
+        ],
+        [
+          118.42723004694837,
+          50.70422535211268
+        ],
+        [
+          118.42723004694837,
+          101.40845070422534
+        ],
+        [
+          68.1924882629108,
+          101.40845070422534
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "铜钱",
+      "score": null,
+      "points": [
+        [
+          145.65727699530515,
+          68.54460093896714
+        ],
+        [
+          194.01408450704224,
+          68.54460093896714
+        ],
+        [
+          194.01408450704224,
+          115.72769953051643
+        ],
+        [
+          145.65727699530515,
+          115.72769953051643
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "打火机",
+      "score": null,
+      "points": [
+        [
+          227.58215962441315,
+          125.35211267605634
+        ],
+        [
+          276.4084507042254,
+          125.35211267605634
+        ],
+        [
+          276.4084507042254,
+          176.05633802816902
+        ],
+        [
+          227.58215962441315,
+          176.05633802816902
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "73.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "篮球",
+      "score": null,
+      "points": [
+        [
+          71.24413145539907,
+          34.27230046948357
+        ],
+        [
+          125.46948356807512,
+          34.27230046948357
+        ],
+        [
+          125.46948356807512,
+          83.5680751173709
+        ],
+        [
+          71.24413145539907,
+          83.5680751173709
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "玩具头",
+      "score": null,
+      "points": [
+        [
+          83.68544600938968,
+          113.38028169014085
+        ],
+        [
+          138.84976525821597,
+          113.38028169014085
+        ],
+        [
+          138.84976525821597,
+          162.20657276995306
+        ],
+        [
+          83.68544600938968,
+          162.20657276995306
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "垃圾桶",
+      "score": null,
+      "points": [
+        [
+          145.65727699530515,
+          95.07042253521126
+        ],
+        [
+          194.48356807511738,
+          95.07042253521126
+        ],
+        [
+          194.48356807511738,
+          145.77464788732397
+        ],
+        [
+          145.65727699530515,
+          145.77464788732397
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "63.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

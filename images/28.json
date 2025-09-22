@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "钥匙",
+      "score": null,
+      "points": [
+        [
+          142.84037558685446,
+          103.52112676056338
+        ],
+        [
+          188.1455399061033,
+          103.52112676056338
+        ],
+        [
+          188.1455399061033,
+          152.11267605633805
+        ],
+        [
+          142.84037558685446,
+          152.11267605633805
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "大树叶",
+      "score": null,
+      "points": [
+        [
+          150.5868544600939,
+          47.417840375586856
+        ],
+        [
+          201.99530516431923,
+          47.417840375586856
+        ],
+        [
+          201.99530516431923,
+          94.60093896713614
+        ],
+        [
+          150.5868544600939,
+          94.60093896713614
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "空间站模型",
+      "score": null,
+      "points": [
+        [
+          80.39906103286386,
+          79.34272300469483
+        ],
+        [
+          132.981220657277,
+          79.34272300469483
+        ],
+        [
+          132.981220657277,
+          130.04694835680752
+        ],
+        [
+          80.39906103286386,
+          130.04694835680752
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "28.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

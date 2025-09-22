@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "墨水",
+      "score": null,
+      "points": [
+        [
+          38.38028169014085,
+          80.51643192488262
+        ],
+        [
+          89.7887323943662,
+          80.51643192488262
+        ],
+        [
+          89.7887323943662,
+          128.87323943661974
+        ],
+        [
+          38.38028169014085,
+          128.87323943661974
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "汉堡",
+      "score": null,
+      "points": [
+        [
+          117.7230046948357,
+          128.87323943661974
+        ],
+        [
+          163.73239436619718,
+          128.87323943661974
+        ],
+        [
+          163.73239436619718,
+          175.35211267605635
+        ],
+        [
+          117.7230046948357,
+          175.35211267605635
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "钩子",
+      "score": null,
+      "points": [
+        [
+          182.74647887323943,
+          2.816901408450705
+        ],
+        [
+          236.50234741784038,
+          2.816901408450705
+        ],
+        [
+          236.50234741784038,
+          53.286384976525824
+        ],
+        [
+          182.74647887323943,
+          53.286384976525824
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "9.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

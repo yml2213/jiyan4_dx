@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "垃圾桶",
+      "score": null,
+      "points": [
+        [
+          38.14553990610329,
+          25.5868544600939
+        ],
+        [
+          86.9718309859155,
+          25.5868544600939
+        ],
+        [
+          86.9718309859155,
+          76.05633802816901
+        ],
+        [
+          38.14553990610329,
+          76.05633802816901
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "磁带",
+      "score": null,
+      "points": [
+        [
+          57.15962441314554,
+          111.73708920187794
+        ],
+        [
+          107.3943661971831,
+          111.73708920187794
+        ],
+        [
+          107.3943661971831,
+          163.84976525821597
+        ],
+        [
+          57.15962441314554,
+          163.84976525821597
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "弹弓",
+      "score": null,
+      "points": [
+        [
+          158.80281690140845,
+          77.46478873239437
+        ],
+        [
+          214.2018779342723,
+          77.46478873239437
+        ],
+        [
+          214.2018779342723,
+          129.5774647887324
+        ],
+        [
+          158.80281690140845,
+          129.5774647887324
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "15.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

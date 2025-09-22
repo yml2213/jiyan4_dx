@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "弹弓",
+      "score": null,
+      "points": [
+        [
+          102.46478873239437,
+          11.267605633802818
+        ],
+        [
+          150.11737089201878,
+          11.267605633802818
+        ],
+        [
+          150.11737089201878,
+          61.03286384976526
+        ],
+        [
+          102.46478873239437,
+          61.03286384976526
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "上衣",
+      "score": null,
+      "points": [
+        [
+          50.35211267605634,
+          82.62910798122066
+        ],
+        [
+          101.29107981220658,
+          82.62910798122066
+        ],
+        [
+          101.29107981220658,
+          136.61971830985917
+        ],
+        [
+          50.35211267605634,
+          136.61971830985917
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "手电筒",
+      "score": null,
+      "points": [
+        [
+          162.79342723004694,
+          88.26291079812206
+        ],
+        [
+          209.7417840375587,
+          88.26291079812206
+        ],
+        [
+          209.7417840375587,
+          136.85446009389673
+        ],
+        [
+          162.79342723004694,
+          136.85446009389673
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "84.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

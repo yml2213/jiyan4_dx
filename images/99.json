@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "浴缸",
+      "score": null,
+      "points": [
+        [
+          44.248826291079816,
+          9.624413145539906
+        ],
+        [
+          91.66666666666667,
+          9.624413145539906
+        ],
+        [
+          91.66666666666667,
+          58.45070422535212
+        ],
+        [
+          44.248826291079816,
+          58.45070422535212
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "圆饼",
+      "score": null,
+      "points": [
+        [
+          132.27699530516432,
+          33.802816901408455
+        ],
+        [
+          184.85915492957747,
+          33.802816901408455
+        ],
+        [
+          184.85915492957747,
+          84.97652582159624
+        ],
+        [
+          132.27699530516432,
+          84.97652582159624
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "蝴蝶",
+      "score": null,
+      "points": [
+        [
+          143.075117370892,
+          107.04225352112675
+        ],
+        [
+          196.1267605633803,
+          107.04225352112675
+        ],
+        [
+          196.1267605633803,
+          154.46009389671363
+        ],
+        [
+          143.075117370892,
+          154.46009389671363
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "99.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

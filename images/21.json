@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "垃圾桶",
+      "score": null,
+      "points": [
+        [
+          46.12676056338029,
+          30.51643192488263
+        ],
+        [
+          99.41314553990611,
+          30.51643192488263
+        ],
+        [
+          99.41314553990611,
+          79.10798122065728
+        ],
+        [
+          46.12676056338029,
+          79.10798122065728
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "对开门",
+      "score": null,
+      "points": [
+        [
+          201.7605633802817,
+          38.02816901408451
+        ],
+        [
+          257.86384976525824,
+          38.02816901408451
+        ],
+        [
+          257.86384976525824,
+          95.30516431924882
+        ],
+        [
+          201.7605633802817,
+          95.30516431924882
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "蝴蝶",
+      "score": null,
+      "points": [
+        [
+          198.00469483568074,
+          122.06572769953051
+        ],
+        [
+          245.89201877934272,
+          122.06572769953051
+        ],
+        [
+          245.89201877934272,
+          172.3004694835681
+        ],
+        [
+          198.00469483568074,
+          172.3004694835681
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "21.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

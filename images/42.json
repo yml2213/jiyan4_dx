@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "牙齿",
+      "score": null,
+      "points": [
+        [
+          92.13615023474179,
+          46.244131455399064
+        ],
+        [
+          140.49295774647888,
+          46.244131455399064
+        ],
+        [
+          140.49295774647888,
+          92.95774647887323
+        ],
+        [
+          92.13615023474179,
+          92.95774647887323
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "沙漏",
+      "score": null,
+      "points": [
+        [
+          150.11737089201878,
+          5.164319248826292
+        ],
+        [
+          199.4131455399061,
+          5.164319248826292
+        ],
+        [
+          199.4131455399061,
+          53.286384976525824
+        ],
+        [
+          150.11737089201878,
+          53.286384976525824
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "指南针",
+      "score": null,
+      "points": [
+        [
+          207.8638497652582,
+          100.70422535211267
+        ],
+        [
+          258.0985915492958,
+          100.70422535211267
+        ],
+        [
+          258.0985915492958,
+          149.76525821596246
+        ],
+        [
+          207.8638497652582,
+          149.76525821596246
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "42.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

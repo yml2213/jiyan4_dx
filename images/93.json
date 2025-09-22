@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "香烟",
+      "score": null,
+      "points": [
+        [
+          14.906103286384978,
+          73.00469483568075
+        ],
+        [
+          65.84507042253522,
+          73.00469483568075
+        ],
+        [
+          65.84507042253522,
+          126.29107981220658
+        ],
+        [
+          14.906103286384978,
+          126.29107981220658
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "拉琴",
+      "score": null,
+      "points": [
+        [
+          166.78403755868544,
+          111.50234741784037
+        ],
+        [
+          215.61032863849766,
+          111.50234741784037
+        ],
+        [
+          215.61032863849766,
+          157.98122065727702
+        ],
+        [
+          166.78403755868544,
+          157.98122065727702
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "磁带",
+      "score": null,
+      "points": [
+        [
+          108.09859154929578,
+          23.708920187793428
+        ],
+        [
+          159.7417840375587,
+          23.708920187793428
+        ],
+        [
+          159.7417840375587,
+          71.12676056338027
+        ],
+        [
+          108.09859154929578,
+          71.12676056338027
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "93.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

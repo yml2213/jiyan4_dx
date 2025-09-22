@@ -1,0 +1,98 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "kie_linking": [],
+      "label": "飞机",
+      "score": null,
+      "points": [
+        [
+          47.7699530516432,
+          122.30046948356808
+        ],
+        [
+          95.18779342723005,
+          122.30046948356808
+        ],
+        [
+          95.18779342723005,
+          174.64788732394368
+        ],
+        [
+          47.7699530516432,
+          174.64788732394368
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "kie_linking": [],
+      "label": "熊爪",
+      "score": null,
+      "points": [
+        [
+          192.37089201877933,
+          45.774647887323944
+        ],
+        [
+          245.18779342723005,
+          45.774647887323944
+        ],
+        [
+          245.18779342723005,
+          94.60093896713614
+        ],
+        [
+          192.37089201877933,
+          94.60093896713614
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "像7",
+      "score": null,
+      "points": [
+        [
+          36.737089201877936,
+          2.582159624413146
+        ],
+        [
+          86.03286384976526,
+          2.582159624413146
+        ],
+        [
+          86.03286384976526,
+          53.521126760563384
+        ],
+        [
+          36.737089201877936,
+          53.521126760563384
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "53.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300,
+  "description": ""
+}

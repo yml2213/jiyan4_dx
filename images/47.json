@@ -1,0 +1,98 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "kie_linking": [],
+      "label": "脑子",
+      "score": null,
+      "points": [
+        [
+          70.53990610328638,
+          35.21126760563381
+        ],
+        [
+          121.0093896713615,
+          35.21126760563381
+        ],
+        [
+          121.0093896713615,
+          83.80281690140845
+        ],
+        [
+          70.53990610328638,
+          83.80281690140845
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "kie_linking": [],
+      "label": "吸铁石",
+      "score": null,
+      "points": [
+        [
+          149.4131455399061,
+          90.14084507042253
+        ],
+        [
+          201.7605633802817,
+          90.14084507042253
+        ],
+        [
+          201.7605633802817,
+          138.49765258215965
+        ],
+        [
+          149.4131455399061,
+          138.49765258215965
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "kie_linking": [],
+      "label": "人爬墙",
+      "score": null,
+      "points": [
+        [
+          211.8544600938967,
+          110.09389671361502
+        ],
+        [
+          264.67136150234745,
+          110.09389671361502
+        ],
+        [
+          264.67136150234745,
+          160.7981220657277
+        ],
+        [
+          211.8544600938967,
+          160.7981220657277
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "47.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300,
+  "description": ""
+}

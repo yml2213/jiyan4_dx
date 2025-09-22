@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "冰淇淋",
+      "score": null,
+      "points": [
+        [
+          110.21126760563381,
+          55.86854460093897
+        ],
+        [
+          158.33333333333334,
+          55.86854460093897
+        ],
+        [
+          158.33333333333334,
+          105.63380281690141
+        ],
+        [
+          110.21126760563381,
+          105.63380281690141
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "三个圆",
+      "score": null,
+      "points": [
+        [
+          217.4882629107981,
+          24.178403755868548
+        ],
+        [
+          268.4272300469484,
+          24.178403755868548
+        ],
+        [
+          268.4272300469484,
+          72.76995305164318
+        ],
+        [
+          217.4882629107981,
+          72.76995305164318
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "蜻蜓",
+      "score": null,
+      "points": [
+        [
+          213.26291079812205,
+          127.23004694835682
+        ],
+        [
+          262.32394366197184,
+          127.23004694835682
+        ],
+        [
+          262.32394366197184,
+          177.23004694835683
+        ],
+        [
+          213.26291079812205,
+          177.23004694835683
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "10.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

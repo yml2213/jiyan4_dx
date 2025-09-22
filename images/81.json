@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "喇叭",
+      "score": null,
+      "points": [
+        [
+          54.5774647887324,
+          85.68075117370891
+        ],
+        [
+          101.52582159624414,
+          85.68075117370891
+        ],
+        [
+          101.52582159624414,
+          138.73239436619718
+        ],
+        [
+          54.5774647887324,
+          138.73239436619718
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "玩具头",
+      "score": null,
+      "points": [
+        [
+          114.2018779342723,
+          90.84507042253522
+        ],
+        [
+          166.07981220657277,
+          90.84507042253522
+        ],
+        [
+          166.07981220657277,
+          137.5586854460094
+        ],
+        [
+          114.2018779342723,
+          137.5586854460094
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "两网球",
+      "score": null,
+      "points": [
+        [
+          221.4788732394366,
+          19.71830985915493
+        ],
+        [
+          270.30516431924883,
+          19.71830985915493
+        ],
+        [
+          270.30516431924883,
+          67.84037558685446
+        ],
+        [
+          221.4788732394366,
+          67.84037558685446
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "81.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "关机键",
+      "score": null,
+      "points": [
+        [
+          26.173708920187792,
+          6.572769953051644
+        ],
+        [
+          77.11267605633803,
+          6.572769953051644
+        ],
+        [
+          77.11267605633803,
+          60.093896713615024
+        ],
+        [
+          26.173708920187792,
+          60.093896713615024
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "大树叶",
+      "score": null,
+      "points": [
+        [
+          23.356807511737088,
+          127.46478873239435
+        ],
+        [
+          73.35680751173709,
+          127.46478873239435
+        ],
+        [
+          73.35680751173709,
+          175.82159624413148
+        ],
+        [
+          23.356807511737088,
+          175.82159624413148
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "蛇",
+      "score": null,
+      "points": [
+        [
+          96.36150234741784,
+          125.35211267605634
+        ],
+        [
+          145.65727699530515,
+          125.35211267605634
+        ],
+        [
+          145.65727699530515,
+          175.11737089201878
+        ],
+        [
+          96.36150234741784,
+          175.11737089201878
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "82.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

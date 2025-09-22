@@ -1,20 +1,39 @@
-import cv2
+from typing import Any, cast
+import cv2 as _cv2
 from PIL import Image
 import time
 import onnxruntime as ort
 import numpy as np
 import os
 import argparse
+from utils_size import auto_hw_from_ref
+
+
+cv2 = cast(Any, _cv2)  # silence type checkers; cv2 has dynamic attributes
 
 
 class getTpInfo:
-    def __init__(self, onnx_path: str = './sbkuan.onnx'):
+    def __init__(self, onnx_path: str = './sbkuan.onnx', providers: list | None = None):
         with open('./classes.txt', encoding='utf-8') as f:
             t = f.read().split('\n')
         self.alllb = t
         if not os.path.exists(onnx_path):
             raise FileNotFoundError(f'未找到模型文件: {onnx_path}，请先运行 bconnx.py 生成。')
-        self.mymodo = ort.InferenceSession(onnx_path)
+        # 自动选择可用的推理后端（EP）。优先 CUDA、CoreML（Apple）、最后 CPU。
+        available = ort.get_available_providers()
+        if providers is None:
+            picked = []
+            for cand in ("CUDAExecutionProvider", "CoreMLExecutionProvider", "CPUExecutionProvider"):
+                if cand in available:
+                    picked.append(cand)
+            if not picked:
+                picked = ["CPUExecutionProvider"]
+        else:
+            # 仅保留可用的 provider，避免初始化报错
+            picked = [p for p in providers if p in available] or ["CPUExecutionProvider"]
+        self.providers = picked
+        self.mymodo = ort.InferenceSession(onnx_path, providers=self.providers)
+        print(f"ONNXRuntime providers: {self.providers} (available: {available})")
 
     def bbbiou(self, rec1, rec2):
         if self.pdisIn(rec1[0], rec1[1], rec1[2], rec1[3], rec2[0], rec2[1], rec2[2], rec2[3]) is False:
@@ -73,10 +92,13 @@ class getTpInfo:
 
     def getimage(self, path):
         imge = Image.open(path).convert('RGB')
-        dst = imge.resize((320, 192), Image.BILINEAR)
+        # 与训练/导出保持一致的自适应尺寸
+        _h, _w, _, _ = auto_hw_from_ref('images/1.jpg', multiple=64, default_hw=(192, 320))
+        # Pillow 10+ 推荐使用 Resampling 枚举；旧别名 Image.BILINEAR 仍可用但在类型检查下告警
+        dst = imge.resize((_w, _h), Image.Resampling.BILINEAR)
         dst.save('./l.jpg')
         dst = np.array(dst).astype(np.float32) / 255
-        img = dst.transpose(2, 1, 0).reshape((1, 3, 320, 192))
+        img = dst.transpose(2, 1, 0).reshape((1, 3, _w, _h))
         return img, imge
 
     def shibie(self, imgpa, show: bool = False, save_path: str = './1_.png'):
@@ -109,6 +131,7 @@ if __name__ == '__main__':
     parser.add_argument('--onnx', dest='onnx', default='./sbkuan.onnx', help='ONNX 模型路径')
     parser.add_argument('--show', dest='show', action='store_true', help='是否弹窗显示结果')
     parser.add_argument('--out', dest='out', default='./1_.png', help='输出图片路径')
+    parser.add_argument('--ep', dest='ep', default='auto', help='执行提供器：auto/cpu/cuda/coreml，多项用逗号分隔')
     args = parser.parse_args()
 
     imgpa = args.img
@@ -120,6 +143,20 @@ if __name__ == '__main__':
     if not imgpa or not os.path.exists(imgpa):
         raise FileNotFoundError('未找到可用的图片，请使用 --img 指定，或放置到 images/ 下。')
 
-    s = getTpInfo(args.onnx)
-    s.shibie(imgpa, show=args.show, save_path=args.out)
+    # 解析 EP 参数
+    ep_map = {
+        'cpu': ['CPUExecutionProvider'],
+        'cuda': ['CUDAExecutionProvider', 'CPUExecutionProvider'],
+        'coreml': ['CoreMLExecutionProvider', 'CPUExecutionProvider'],
+    }
+    providers = None
+    if args.ep and args.ep.lower() != 'auto':
+        # 支持逗号分隔的 provider 名（如: cuda,cpu）或简写
+        items = [x.strip() for x in args.ep.split(',') if x.strip()]
+        expanded: list[str] = []
+        for it in items:
+            expanded.extend(ep_map.get(it.lower(), [it]))
+        providers = expanded
 
+    s = getTpInfo(args.onnx, providers=providers)
+    s.shibie(imgpa, show=args.show, save_path=args.out)

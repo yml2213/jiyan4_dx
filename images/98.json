@@ -1,0 +1,98 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "kie_linking": [],
+      "label": "喷壶",
+      "score": null,
+      "points": [
+        [
+          25.23474178403756,
+          11.971830985915494
+        ],
+        [
+          69.36619718309859,
+          11.971830985915494
+        ],
+        [
+          69.36619718309859,
+          64.55399061032864
+        ],
+        [
+          25.23474178403756,
+          64.55399061032864
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "kie_linking": [],
+      "label": "小风车",
+      "score": null,
+      "points": [
+        [
+          33.45070422535212,
+          80.98591549295774
+        ],
+        [
+          82.981220657277,
+          80.98591549295774
+        ],
+        [
+          82.981220657277,
+          129.34272300469485
+        ],
+        [
+          33.45070422535212,
+          129.34272300469485
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "kie_linking": [],
+      "label": "蛇",
+      "score": null,
+      "points": [
+        [
+          126.1737089201878,
+          78.4037558685446
+        ],
+        [
+          175.93896713615024,
+          78.4037558685446
+        ],
+        [
+          175.93896713615024,
+          128.4037558685446
+        ],
+        [
+          126.1737089201878,
+          128.4037558685446
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "98.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300,
+  "description": ""
+}

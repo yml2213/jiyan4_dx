@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "人",
+      "score": null,
+      "points": [
+        [
+          91.43192488262912,
+          17.84037558685446
+        ],
+        [
+          142.37089201877933,
+          17.84037558685446
+        ],
+        [
+          142.37089201877933,
+          67.37089201877934
+        ],
+        [
+          91.43192488262912,
+          67.37089201877934
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "小风扇",
+      "score": null,
+      "points": [
+        [
+          36.26760563380282,
+          96.0093896713615
+        ],
+        [
+          88.61502347417841,
+          96.0093896713615
+        ],
+        [
+          88.61502347417841,
+          152.81690140845072
+        ],
+        [
+          36.26760563380282,
+          152.81690140845072
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "空间站模型",
+      "score": null,
+      "points": [
+        [
+          164.67136150234742,
+          120.18779342723005
+        ],
+        [
+          221.0093896713615,
+          120.18779342723005
+        ],
+        [
+          221.0093896713615,
+          180.2816901408451
+        ],
+        [
+          164.67136150234742,
+          180.2816901408451
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "77.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

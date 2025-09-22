@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "苹果",
+      "score": null,
+      "points": [
+        [
+          28.28638497652582,
+          103.75586854460094
+        ],
+        [
+          79.69483568075118,
+          103.75586854460094
+        ],
+        [
+          79.69483568075118,
+          154.6948356807512
+        ],
+        [
+          28.28638497652582,
+          154.6948356807512
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "手雷",
+      "score": null,
+      "points": [
+        [
+          196.1267605633803,
+          36.85446009389671
+        ],
+        [
+          246.36150234741785,
+          36.85446009389671
+        ],
+        [
+          246.36150234741785,
+          89.2018779342723
+        ],
+        [
+          196.1267605633803,
+          89.2018779342723
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "球拍",
+      "score": null,
+      "points": [
+        [
+          196.83098591549296,
+          94.83568075117371
+        ],
+        [
+          249.64788732394365,
+          94.83568075117371
+        ],
+        [
+          249.64788732394365,
+          144.83568075117373
+        ],
+        [
+          196.83098591549296,
+          144.83568075117373
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "3.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

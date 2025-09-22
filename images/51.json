@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "人大钥匙",
+      "score": null,
+      "points": [
+        [
+          105.04694835680752,
+          69.95305164319248
+        ],
+        [
+          154.34272300469482,
+          69.95305164319248
+        ],
+        [
+          154.34272300469482,
+          121.59624413145539
+        ],
+        [
+          105.04694835680752,
+          121.59624413145539
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "玩具头",
+      "score": null,
+      "points": [
+        [
+          163.0281690140845,
+          40.375586854460096
+        ],
+        [
+          213.26291079812205,
+          40.375586854460096
+        ],
+        [
+          213.26291079812205,
+          88.26291079812206
+        ],
+        [
+          163.0281690140845,
+          88.26291079812206
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "核辐射",
+      "score": null,
+      "points": [
+        [
+          226.6431924882629,
+          42.72300469483568
+        ],
+        [
+          277.3474178403756,
+          42.72300469483568
+        ],
+        [
+          277.3474178403756,
+          91.07981220657277
+        ],
+        [
+          226.6431924882629,
+          91.07981220657277
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "51.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "空间站模型",
+      "score": null,
+      "points": [
+        [
+          44.953051643192495,
+          3.521126760563381
+        ],
+        [
+          95.65727699530517,
+          3.521126760563381
+        ],
+        [
+          95.65727699530517,
+          53.286384976525824
+        ],
+        [
+          44.953051643192495,
+          53.286384976525824
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "七星瓢虫",
+      "score": null,
+      "points": [
+        [
+          109.50704225352113,
+          46.71361502347418
+        ],
+        [
+          155.28169014084506,
+          46.71361502347418
+        ],
+        [
+          155.28169014084506,
+          96.94835680751173
+        ],
+        [
+          109.50704225352113,
+          96.94835680751173
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "五瓣花",
+      "score": null,
+      "points": [
+        [
+          223.59154929577466,
+          53.286384976525824
+        ],
+        [
+          273.8262910798122,
+          53.286384976525824
+        ],
+        [
+          273.8262910798122,
+          102.34741784037558
+        ],
+        [
+          223.59154929577466,
+          102.34741784037558
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "56.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

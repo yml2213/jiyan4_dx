@@ -1,0 +1,98 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "kie_linking": [],
+      "label": "鸟头",
+      "score": null,
+      "points": [
+        [
+          90.25821596244133,
+          31.455399061032864
+        ],
+        [
+          136.9718309859155,
+          31.455399061032864
+        ],
+        [
+          136.9718309859155,
+          84.74178403755869
+        ],
+        [
+          90.25821596244133,
+          84.74178403755869
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "kie_linking": [],
+      "label": "铃铛",
+      "score": null,
+      "points": [
+        [
+          159.03755868544602,
+          13.145539906103288
+        ],
+        [
+          208.09859154929578,
+          13.145539906103288
+        ],
+        [
+          208.09859154929578,
+          64.31924882629107
+        ],
+        [
+          159.03755868544602,
+          64.31924882629107
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "房子",
+      "score": null,
+      "points": [
+        [
+          114.43661971830987,
+          121.36150234741784
+        ],
+        [
+          169.3661971830986,
+          121.36150234741784
+        ],
+        [
+          169.3661971830986,
+          172.06572769953053
+        ],
+        [
+          114.43661971830987,
+          172.06572769953053
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "50.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300,
+  "description": ""
+}

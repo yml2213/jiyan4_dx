@@ -1,0 +1,97 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "牙齿",
+      "score": null,
+      "points": [
+        [
+          106.69014084507043,
+          26.056338028169016
+        ],
+        [
+          156.92488262910797,
+          26.056338028169016
+        ],
+        [
+          156.92488262910797,
+          79.10798122065728
+        ],
+        [
+          106.69014084507043,
+          79.10798122065728
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "人",
+      "score": null,
+      "points": [
+        [
+          161.61971830985914,
+          5.868544600938968
+        ],
+        [
+          216.78403755868544,
+          5.868544600938968
+        ],
+        [
+          216.78403755868544,
+          57.51173708920188
+        ],
+        [
+          161.61971830985914,
+          57.51173708920188
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "恐龙",
+      "score": null,
+      "points": [
+        [
+          104.81220657276997,
+          118.54460093896714
+        ],
+        [
+          156.2206572769953,
+          118.54460093896714
+        ],
+        [
+          156.2206572769953,
+          168.7793427230047
+        ],
+        [
+          104.81220657276997,
+          168.7793427230047
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "1.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300
+}

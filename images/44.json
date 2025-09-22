@@ -1,0 +1,98 @@
+{
+  "version": "3.2.3",
+  "flags": {},
+  "shapes": [
+    {
+      "kie_linking": [],
+      "label": "墨水",
+      "score": null,
+      "points": [
+        [
+          67.72300469483568,
+          5.164319248826292
+        ],
+        [
+          116.31455399061034,
+          5.164319248826292
+        ],
+        [
+          116.31455399061034,
+          56.33802816901409
+        ],
+        [
+          67.72300469483568,
+          56.33802816901409
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "上衣",
+      "score": null,
+      "points": [
+        [
+          192.1361502347418,
+          12.441314553990612
+        ],
+        [
+          239.55399061032864,
+          12.441314553990612
+        ],
+        [
+          239.55399061032864,
+          61.971830985915496
+        ],
+        [
+          192.1361502347418,
+          61.971830985915496
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "两长挂件",
+      "score": null,
+      "points": [
+        [
+          35.328638497652584,
+          115.02347417840376
+        ],
+        [
+          81.3380281690141,
+          115.02347417840376
+        ],
+        [
+          81.3380281690141,
+          172.53521126760566
+        ],
+        [
+          35.328638497652584,
+          172.53521126760566
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "44.jpg",
+  "imageData": null,
+  "imageHeight": 200,
+  "imageWidth": 300,
+  "description": ""
+}
